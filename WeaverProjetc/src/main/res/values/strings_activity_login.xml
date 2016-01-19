@@ -1,16 +1,18 @@
 <resources>
 
-    <string name="title_activity_login">Log in</string>
-    <string name="prompt_username">Username</string>
-    <string name="prompt_password">Password</string>
-    <string name="prompt_password_again">Password Again</string>
-    <string name="error_intro">"Please "</string>
-    <string name="error_blank_username">enter a username</string>
-    <string name="error_blank_password">enter a password</string>
-    <string name="error_mismatched_passwords">enter the same password twice</string>
-    <string name="error_join">", and "</string>
+    <string name="title_activity_login">Acceder</string>
+    <string name="prompt_fullname">Nombre completo</string>
+    <string name="prompt_document">Documento</string>
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_again">Confirmar contraseña</string>
+    <string name="error_intro">"Por favor "</string>
+    <string name="error_blank_username">ingrese un usuario</string>
+    <string name="error_blank_password">ingrese una contraseña</string>
+    <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
+    <string name="error_join">", y "</string>
     <string name="error_end">.</string>
-    <string name="progress_login">Logging you in&#8230;</string>
-    <string name="progress_signup">Signing you up&#8230;</string>
+    <string name="progress_login">Accediendo&#8230;</string>
+    <string name="progress_signup">Registrando&#8230;</string>
 
 </resources>

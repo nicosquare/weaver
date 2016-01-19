@@ -19,7 +19,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="278dp"
         android:text="@string/login" />
 
     <Button
@@ -59,8 +59,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="193dp"
         android:text="@string/slogan"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignBottom="@+id/textview_3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/weaver_nombre"
+        android:layout_marginBottom="29dp" />
 
 </RelativeLayout><!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/layout-v11/content_welcome.xml -->
