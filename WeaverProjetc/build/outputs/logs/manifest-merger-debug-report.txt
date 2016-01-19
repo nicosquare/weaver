@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:10:1-77:12
+	xmlns:android
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:10:11-69
+	package
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:11:5-31
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:14:22-76
+application
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:16:5-75:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] /home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:19:9-43
+	android:theme
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:17:9-42
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:25:9-72
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:25:26-69
+uses-permission#android.permission.VIBRATE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:26:9-70
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:26:26-67
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:27:9-75
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:27:26-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:28:9-86
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:28:26-83
+permission#com.parse.weaver.permission.C2D_MESSAGE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:34:9-35:70
+	android:protectionLevel
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:34:21-56
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:35:13-67
+uses-permission#com.parse.weaver.permission.C2D_MESSAGE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:36:9-83
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:36:26-80
+meta-data#com.parse.APPLICATION_ID
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:38:9-40:52
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:39:13-52
+	android:value
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:40:13-49
+meta-data#com.parse.CLIENT_KEY
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:41:9-43:56
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:42:13-48
+	android:value
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:43:13-53
+activity#com.parse.weaver.MainActivity
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:45:9-53:20
+	android:label
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:46:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:51:27-74
+service#com.parse.PushService
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:54:9-57
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:54:18-54
+receiver#com.parse.ParsePushBroadcastReceiver
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:55:9-62:20
+	android:exported
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:55:19-70
+intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:57:13-61:29
+action#com.parse.push.intent.RECEIVE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:58:17-72
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:58:25-69
+action#com.parse.push.intent.DELETE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:59:17-71
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:59:25-68
+action#com.parse.push.intent.OPEN
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:60:25-66
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:63:9-74:20
+	android:permission
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:64:13-73
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:63:19-64
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.parse.weaver
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:65:13-73:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:66:17-81
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:66:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:67:17-86
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:67:25-83
+category#com.parse.weaver
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:72:17-61
+	android:name
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:72:27-58
+uses-sdk
+INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.0] /home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
+		INJECTED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml
