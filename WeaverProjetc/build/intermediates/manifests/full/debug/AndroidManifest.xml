@@ -8,7 +8,7 @@
   ~ of patent rights can be found in the PATENTS file in the same directory.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.parse.starter"
+    package="com.parse.weaver"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -52,6 +52,17 @@
         <activity
             android:name="com.parse.weaver.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.parse.weaver.SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.parse.weaver.LoginActivity" />
+        <activity android:name="com.parse.weaver.SettingsActivity" />
+        <activity
+            android:name="com.parse.weaver.WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -77,7 +88,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-<!--                   IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+                <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
                 <category android:name="com.parse.weaver" />
             </intent-filter>
         </receiver>
