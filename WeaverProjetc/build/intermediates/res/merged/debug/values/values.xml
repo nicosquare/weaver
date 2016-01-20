@@ -305,6 +305,8 @@
     <string name="error_intro">"Por favor "</string>
     <string name="error_join">", y "</string>
     <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
+    <string name="error_wrong_email">El correo ingresado no esta registrado</string>
+    <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">!Hola mundo!</string>

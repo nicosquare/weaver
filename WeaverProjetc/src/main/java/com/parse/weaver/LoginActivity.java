@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -12,8 +13,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 /**
@@ -22,7 +26,7 @@ import com.parse.ParseUser;
 public class LoginActivity extends Activity
 {
     // UI references.
-    private EditText usernameEditText;
+    private EditText emailEditText;
     private EditText passwordEditText;
 
     @Override
@@ -33,7 +37,7 @@ public class LoginActivity extends Activity
         setContentView(R.layout.activity_login);
 
         // Set up the login form.
-        usernameEditText = (EditText) findViewById(R.id.username);
+        emailEditText = (EditText) findViewById(R.id.email);
         passwordEditText = (EditText) findViewById(R.id.password);
         passwordEditText.setOnEditorActionListener(new TextView.OnEditorActionListener()
         {
@@ -63,17 +67,17 @@ public class LoginActivity extends Activity
 
     private void login()
     {
-        String username = usernameEditText.getText().toString().trim();
-        String password = passwordEditText.getText().toString().trim();
+        String email = emailEditText.getText().toString().trim();
+        final String password = passwordEditText.getText().toString().trim();
 
         // Validate the log in data
         boolean validationError = false;
         StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
 
-        if (username.length() == 0)
+        if (email.length() == 0)
         {
             validationError = true;
-            validationErrorMessage.append(getString(R.string.error_blank_fullname));
+            validationErrorMessage.append(getString(R.string.error_blank_email));
         }
 
         if (password.length() == 0)
@@ -99,21 +103,38 @@ public class LoginActivity extends Activity
         dialog.setMessage(getString(R.string.progress_login));
         dialog.show();
 
-        // Call the Parse login method
-        ParseUser.logInInBackground(username, password, new LogInCallback() {
-            @Override
-            public void done(ParseUser user, ParseException e) {
-                dialog.dismiss();
-                if (e != null) {
-                    // Show the error message
-                    Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+        // Get username by email
+        ParseQuery<ParseUser> query = ParseUser.getQuery();
+
+        query.whereEqualTo("email", email);
+        query.getFirstInBackground(new GetCallback<ParseUser>() {
+            public void done(ParseUser object, ParseException e) {
+                if (object == null) {
+                    dialog.dismiss();
+                    Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_email), Toast.LENGTH_LONG).show();
                 } else {
-                    // Start an intent for the dispatch activity
-                    Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
+                    String username = object.get("username").toString();
+
+                    Log.v("Username queried", username);
+
+                    ParseUser.logInInBackground(username, password, new LogInCallback() {
+                        @Override
+                        public void done(ParseUser user, ParseException e) {
+                            dialog.dismiss();
+                            if (e != null) {
+                                // Show the error message
+                                Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
+                            } else {
+                                // Start an intent for the dispatch activity
+                                Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                startActivity(intent);
+                            }
+                        }
+                    });
                 }
             }
         });
+
     }
 }

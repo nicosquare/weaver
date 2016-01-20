@@ -24,6 +24,8 @@
     <string name="error_blank_terms">acepte los terminos y condiciones</string>
     <string name="error_join">", y "</string>
     <string name="error_end">.</string>
+    <string name="error_wrong_email">El correo ingresado no esta registrado</string>
+    <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
     <!-- Dialogs -->
     <string name="progress_login">Accediendo&#8230;</string>
     <string name="progress_signup">Registrando&#8230;</string>

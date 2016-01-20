@@ -13,11 +13,20 @@
             style="@style/LoginFormContainer"
             android:orientation="vertical" >
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_alignBottom="@+id/textview_3"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/weaver_nombre"
+                android:layout_marginBottom="29dp" />
+
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/prompt_username"
+                android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true" />
@@ -43,7 +52,9 @@
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
                 android:text="@string/login" />
+
         </LinearLayout>
+
     </ScrollView>
 
 </merge><!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/layout/activity_login.xml -->
