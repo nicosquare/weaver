@@ -1,17 +1,30 @@
 <resources>
 
     <string name="title_activity_login">Acceder</string>
+    <!-- User info -->
     <string name="prompt_fullname">Nombre completo</string>
     <string name="prompt_document">Documento</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_cellphone">Celular</string>
     <string name="prompt_username">Usuario</string>
     <string name="prompt_password">Contraseña</string>
     <string name="prompt_password_again">Confirmar contraseña</string>
+    <!-- Errors -->
     <string name="error_intro">"Por favor "</string>
-    <string name="error_blank_username">ingrese un usuario</string>
+    <string name="error_blank_fullname">ingrese un usuario</string>
+    <string name="error_blank_document">ingrese un usuario</string>
+    <string name="error_blank_email">ingrese un correo electrónico</string>
+    <string name="error_blank_cellphone">ingrese un teléfono celular</string>
     <string name="error_blank_password">ingrese una contraseña</string>
     <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
+    <string name="error_blank_brand">ingrese la marca</string>
+    <string name="error_blank_line">ingrese la linea</string>
+    <string name="error_blank_model">ingrese el modelo</string>
+    <string name="error_blank_capacity">ingrese la capacidad</string>
+    <string name="error_blank_terms">acepte los terminos y condiciones</string>
     <string name="error_join">", y "</string>
     <string name="error_end">.</string>
+    <!-- Dialogs -->
     <string name="progress_login">Accediendo&#8230;</string>
     <string name="progress_signup">Registrando&#8230;</string>
 

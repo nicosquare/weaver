@@ -6,7 +6,7 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:src="@drawable/weaver_nombre"
@@ -17,7 +17,7 @@
         android:id="@+id/signup_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="45dp">
+        android:paddingTop="25dp">
 
         <LinearLayout
             style="@style/LoginFormContainer"
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_fullname"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -45,10 +45,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_document"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:singleLine="true"
-                android:numeric="integer"/>
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/cellphone_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_cellphone"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true" />
 
             <EditText
                 android:id="@+id/password_edit_text"
@@ -84,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/veh_brand"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -93,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/veh_line"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -102,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/veh_model"
-                android:inputType="textEmailAddress"
+                android:inputType="number"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -111,11 +128,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/veh_capacity"
-                android:inputType="textEmailAddress"
+                android:inputType="number"
                 android:maxLines="1"
                 android:singleLine="true" />
 
             <CheckBox
+                android:id="@+id/terms_check_box"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/terms"

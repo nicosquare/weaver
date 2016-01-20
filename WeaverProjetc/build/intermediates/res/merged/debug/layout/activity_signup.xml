@@ -4,21 +4,66 @@
 
     <!-- Login form -->
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/weaver_nombre"
+        android:paddingLeft="180dp"
+        android:paddingRight="10dp"/>
+
     <ScrollView
         android:id="@+id/signup_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:paddingTop="25dp">
 
         <LinearLayout
             style="@style/LoginFormContainer"
             android:orientation="vertical" >
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/driver_info"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:textStyle="bold"
+                android:textColor="#9bd8ee" />
+
             <EditText
-                android:id="@+id/username_edit_text"
+                android:id="@+id/fullname_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/prompt_username"
+                android:hint="@string/prompt_fullname"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/document_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_document"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/cellphone_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_cellphone"
+                android:inputType="number"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -42,6 +87,57 @@
                 android:imeActionId="@+id/edittext_action_signup"
                 android:imeActionLabel="@string/signup"
                 android:imeOptions="actionUnspecified" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/veh_info"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:textStyle="bold"
+                android:textColor="#9bd8ee" />
+
+            <EditText
+                android:id="@+id/veh_bran_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/veh_brand"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/veh_line_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/veh_line"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/veh_model_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/veh_model"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/veh_capacity_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/veh_capacity"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <CheckBox
+                android:id="@+id/terms_check_box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/terms"
+                android:textSize="@dimen/abc_text_size_medium_material"/>
 
             <Button
                 android:id="@+id/action_button"

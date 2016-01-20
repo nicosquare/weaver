@@ -7,19 +7,21 @@
   ~ of patent rights can be found in the PATENTS file in the same directory.
   -->
 <resources>
+
+    <!-- App info - Parse -->
     <string name="parse_app_id">YOUR_APPLICATION_ID</string>
     <string name="parse_client_key">YOUR_CLIENT_KEY</string>
-
     <string name="app_name">Weaver</string>
-
+    <!-- Miscenlaneous -->
     <string name="hello_world">!Hola mundo!</string>
+    <string name="powered_by">Powered by</string>
+    <string name="parse">Parse</string>
+    <string name="slogan">Relevos a un click de distancia</string>
+    <!-- Section labels -->
     <string name="action_settings">Config.</string>
     <string name="title_activity_signup">Registrarse</string>
     <string name="login">Acceder</string>
     <string name="signup">Registrate</string>
-    <string name="powered_by">Powered by</string>
-    <string name="parse">Parse</string>
-    <string name="slogan">Relevos a un click de distancia</string>
     <string name="title_activity_settings">Configuraciones</string>
     <string name="search_distance">Distancia de busqueda</string>
     <string name="logout_full">Salir de Weaver</string>
@@ -31,16 +33,13 @@
     <string name="activity_post_title">Create a Post</string>
     <string name="character_count_placeholder">0/140</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
-
-
+    <!-- Login info -->
     <string name="driver_info">Información del conductor</string>
     <string name="veh_info">Información del vehiculo</string>
     <string name="veh_brand">Marca</string>
     <string name="veh_line">Línea</string>
     <string name="veh_model">Modelo</string>
     <string name="veh_capacity">Capacidad</string>
-
     <string name="terms">Acepto terminos y condiciones</string>
-
 
 </resources>

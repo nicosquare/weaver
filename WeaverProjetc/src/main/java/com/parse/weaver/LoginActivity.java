@@ -73,7 +73,7 @@ public class LoginActivity extends Activity
         if (username.length() == 0)
         {
             validationError = true;
-            validationErrorMessage.append(getString(R.string.error_blank_username));
+            validationErrorMessage.append(getString(R.string.error_blank_fullname));
         }
 
         if (password.length() == 0)
