@@ -3,9 +3,10 @@
     xmlns:compat="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/settings_return"
         android:orderInCategory="100"
         compat:showAsAction="always"
-        android:title="@string/action_settings"/>
+        android:title="@string/action_return"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"/>
 
-</menu><!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/menu/menu_main.xml -->
+</menu>

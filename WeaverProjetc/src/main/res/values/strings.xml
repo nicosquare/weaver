@@ -9,8 +9,8 @@
 <resources>
 
     <!-- App info - Parse -->
-    <string name="parse_app_id">YOUR_APPLICATION_ID</string>
-    <string name="parse_client_key">YOUR_CLIENT_KEY</string>
+    <string name="parse_app_id">7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX</string>
+    <string name="parse_client_key">KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE</string>
     <string name="app_name">Weaver</string>
     <!-- Miscenlaneous -->
     <string name="hello_world">!Hola mundo!</string>
@@ -18,7 +18,8 @@
     <string name="parse">Parse</string>
     <string name="slogan">Relevos a un click de distancia</string>
     <!-- Section labels -->
-    <string name="action_settings">Config.</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="action_return">Regresar</string>
     <string name="title_activity_signup">Registrarse</string>
     <string name="login">Acceder</string>
     <string name="signup">Registrate</string>
@@ -32,7 +33,7 @@
     <string name="settings_distance_format">%d feet</string>
     <string name="activity_post_title">Create a Post</string>
     <string name="character_count_placeholder">0/140</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_welcome">Bienvenido a Weaver</string>
     <!-- Login info -->
     <string name="driver_info">Información del conductor</string>
     <string name="veh_info">Información del vehiculo</string>

@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/madog/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.12.0/34ca297c889cd2023074946c7097d96b30b20891/parse-android-1.12.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="34ca297c889cd2023074946c7097d96b30b20891">
+        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/parse-android-1.12.0-c3638f2c53d84cca402932848aabcf655e32dce5.jar" />
+    </item>
+    <item
         jar="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -16,6 +23,13 @@
         <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/classes-1f9736c03bb6dee93feec133cd1090e7fc7079e2.jar" />
     </item>
     <item
+        jar="/home/madog/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-0d8641bc981826b305088115abf00eddd6c54bac.jar" />
+    </item>
+    <item
         jar="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -23,11 +37,11 @@
         <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/classes-ffa33261bbaf5bb8dd59b850ac0c0a04b919f1f5.jar" />
     </item>
     <item
-        jar="/home/madog/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jar="/home/madog/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-0d8641bc981826b305088115abf00eddd6c54bac.jar" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-720e8f4d10b7e7c81b5a12ce7edcda529a9d0670.jar" />
     </item>
     <item
         jar="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
@@ -37,18 +51,11 @@
         <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-c3946e86ca19215b4d3678d3455912438a88db5b.jar" />
     </item>
     <item
-        jar="/home/madog/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jar="/home/madog/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
-        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-5e3d64110a9d15b1174f58c42b741a80d77cdef4.jar" />
-    </item>
-    <item
-        jar="/home/madog/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.12.0/34ca297c889cd2023074946c7097d96b30b20891/parse-android-1.12.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="34ca297c889cd2023074946c7097d96b30b20891">
-        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/parse-android-1.12.0-c3638f2c53d84cca402932848aabcf655e32dce5.jar" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0-075608e93be5b3dcdb254574c7df4697d2997b4d.jar" />
     </item>
 
 </items>

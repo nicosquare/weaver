@@ -3,7 +3,6 @@ package com.parse.weaver;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.parse.ParseUser;
 
@@ -23,7 +22,6 @@ public class DispatchActivity extends Activity {
 
         if (ParseUser.getCurrentUser().getUsername() != null) {
             // Start an intent for the logged in activity
-            ParseUser.getCurrentUser().logOut();
             startActivity(new Intent(this, MainActivity.class));
         } else {
             // Start and intent for the logged out activity

@@ -9,24 +9,31 @@
 package com.parse.weaver;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.parse.Parse;
 import com.parse.ParseACL;
+import com.parse.ParseException;
 import com.parse.ParseInstallation;
+import com.parse.ParsePush;
 import com.parse.ParseUser;
+import com.parse.PushService;
+import com.parse.SaveCallback;
 
 
-public class WeaverApplication extends Application {
+public class WeaverApplication extends Application
+{
 
   @Override
-  public void onCreate() {
+  public void onCreate()
+  {
     super.onCreate();
 
     // Enable Local Datastore.
     Parse.enableLocalDatastore(this);
 
     // Add your initialization code here
-    Parse.initialize(this, "2ot7OPC6ZNVYAesI6w3TtuAlZmxUtUbKYqAGYq3r", "jjb1hTrHqCRodU3lvqaIEmGuTqInGvMjeozLd3P9");
+    Parse.initialize(this, "7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX", "KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE");
     ParseInstallation.getCurrentInstallation().saveInBackground();
 
     ParseUser.enableAutomaticUser();
@@ -34,5 +41,6 @@ public class WeaverApplication extends Application {
     // Optionally enable public read access.
     // defaultACL.setPublicReadAccess(true);
     ParseACL.setDefaultACL(defaultACL, true);
+
   }
 }

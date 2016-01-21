@@ -10,10 +10,12 @@ import android.widget.Button;
 /**
  * Activity which displays a registration screen to the user.
  */
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends Activity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 

@@ -64,14 +64,12 @@
         </activity>
         <activity
             android:name="com.parse.weaver.SignupActivity"
-            android:label="@string/title_activity_signup"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_signup" />
         <activity android:name="com.parse.weaver.LoginActivity" />
         <activity android:name="com.parse.weaver.SettingsActivity" />
         <activity
             android:name="com.parse.weaver.WelcomeActivity"
-            android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_activity_welcome" >
         </activity>
 
         <service android:name="com.parse.PushService" />
@@ -92,7 +90,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+<!--                   IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
                 <category android:name="com.parse.weaver" />
             </intent-filter>
         </receiver>
