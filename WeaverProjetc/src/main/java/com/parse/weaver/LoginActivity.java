@@ -106,24 +106,30 @@ public class LoginActivity extends Activity
         ParseQuery<ParseUser> query = ParseUser.getQuery();
 
         query.whereEqualTo("email", email);
-        query.getFirstInBackground(new GetCallback<ParseUser>() {
-            public void done(ParseUser object, ParseException e) {
-                if (object == null) {
+        query.getFirstInBackground(new GetCallback<ParseUser>()
+        {
+            public void done(ParseUser object, ParseException e)
+            {
+                if (object == null)
+                {
                     dialog.dismiss();
                     Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_email), Toast.LENGTH_LONG).show();
-                } else {
+                } else
+                {
                     String username = object.get("username").toString();
 
-                    Log.v("Username queried", username);
-
-                    ParseUser.logInInBackground(username, password, new LogInCallback() {
+                    ParseUser.logInInBackground(username, password, new LogInCallback()
+                    {
                         @Override
-                        public void done(ParseUser user, ParseException e) {
+                        public void done(ParseUser user, ParseException e)
+                        {
                             dialog.dismiss();
-                            if (e != null) {
+                            if (e != null)
+                            {
                                 // Show the error message
                                 Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
-                            } else {
+                            } else
+                            {
                                 // Start an intent for the dispatch activity
                                 Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
