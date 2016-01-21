@@ -13,8 +13,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
+import com.parse.ParseUser;
 
 
 public class MainActivity extends AppCompatActivity
@@ -25,6 +29,28 @@ public class MainActivity extends AppCompatActivity
   {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+    Button needTakeover = (Button) findViewById(R.id.needTakeover);
+    Button canTakeover = (Button) findViewById(R.id.canTakeover);
+
+    needTakeover.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View view)
+        {
+            startActivity(new Intent(MainActivity.this, NeedTakeoverActivity.class));
+        }
+
+    });
+
+      canTakeover.setOnClickListener(new View.OnClickListener() {
+      public void onClick(View view)
+      {
+          ParseUser.getCurrentUser().put("available",true);
+          ParseUser.getCurrentUser().saveInBackground();
+          Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored), Toast.LENGTH_LONG).show();
+      }
+
+    });
+
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }

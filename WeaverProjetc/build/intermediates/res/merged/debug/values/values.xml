@@ -295,6 +295,7 @@
     <string name="error_blank_brand">ingrese la marca</string>
     <string name="error_blank_capacity">ingrese la capacidad</string>
     <string name="error_blank_cellphone">ingrese un teléfono celular</string>
+    <string name="error_blank_detail">ingrese el detalle sobre el destino</string>
     <string name="error_blank_document">ingrese un usuario</string>
     <string name="error_blank_email">ingrese un correo electrónico</string>
     <string name="error_blank_fullname">ingrese un usuario</string>
@@ -306,13 +307,22 @@
     <string name="error_intro">"Por favor "</string>
     <string name="error_join">", y "</string>
     <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="error_no_gps">Tu GPS esta desactivado, ¿deseas activarlo?</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>
     <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
+    <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">!Hola mundo!</string>
+    <string name="label_ask_takeover">Pedir relevo</string>
     <string name="label_can_takeover">Estoy disponible</string>
     <string name="label_need_takeover">¡Necesito un relevo!</string>
+    <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
+    <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
     <string name="login">Acceder</string>
     <string name="logout_full">Salir de Weaver</string>
     <string name="parse">Parse</string>
@@ -329,6 +339,7 @@
     <string name="progress_post">Posting…</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
+    <string name="progress_requesting">Solicitando…</string>
     <string name="progress_signup">Registrando…</string>
     <string name="prompt_cellphone">Celular</string>
     <string name="prompt_document">Documento</string>
@@ -344,7 +355,7 @@
     <string name="prompt_username">Usuario</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="search_distance">Distancia de busqueda</string>
+    <string name="search_takeover_detail">Por favor indique el destino con el mayor detalle posible</string>
     <string name="settings_distance_format">%d feet</string>
     <string name="signup">Registrate</string>
     <string name="slogan">Relevos a un click de distancia</string>

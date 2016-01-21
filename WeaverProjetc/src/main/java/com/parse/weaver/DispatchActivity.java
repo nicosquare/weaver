@@ -22,6 +22,8 @@ public class DispatchActivity extends Activity {
 
         if (ParseUser.getCurrentUser().getUsername() != null) {
             // Start an intent for the logged in activity
+            // Diable Avaiable option
+            ParseUser.getCurrentUser().put("available",false);
             startActivity(new Intent(this, MainActivity.class));
         } else {
             // Start and intent for the logged out activity

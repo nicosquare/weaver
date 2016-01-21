@@ -25,7 +25,7 @@
     <string name="login">Acceder</string>
     <string name="signup">Registrate</string>
     <string name="title_activity_settings">Configuraciones</string>
-    <string name="search_distance">Distancia de busqueda</string>
+    <string name="search_takeover_detail">Por favor indique el destino con el mayor detalle posible</string>
     <string name="logout_full">Salir de Weaver</string>
     <string name="post">Post</string>
     <string name="prompt_post">Post</string>
@@ -38,6 +38,9 @@
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
     <string name="label_need_takeover">¡Necesito un relevo!</string>
     <string name="label_can_takeover">Estoy disponible</string>
+    <string name="label_ask_takeover">Pedir relevo</string>
+    <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
+    <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
     <!-- Login info -->
     <string name="driver_info">Información del conductor</string>
     <string name="veh_info">Información del vehiculo</string>

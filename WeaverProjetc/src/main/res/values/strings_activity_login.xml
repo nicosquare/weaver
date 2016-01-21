@@ -22,12 +22,15 @@
     <string name="error_blank_model">ingrese el modelo</string>
     <string name="error_blank_capacity">ingrese la capacidad</string>
     <string name="error_blank_terms">acepte los terminos y condiciones</string>
+    <string name="error_blank_detail">ingrese el detalle sobre el destino</string>
     <string name="error_join">", y "</string>
     <string name="error_end">.</string>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>
     <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
+    <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
     <!-- Dialogs -->
     <string name="progress_login">Accediendo&#8230;</string>
     <string name="progress_signup">Registrando&#8230;</string>
+    <string name="progress_requesting">Solicitando&#8230;</string>
 
 </resources>
