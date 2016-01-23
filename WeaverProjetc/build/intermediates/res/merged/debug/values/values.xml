@@ -309,7 +309,7 @@
     <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="error_no_gps">Tu GPS esta desactivado, ¿deseas activarlo?</string>
+    <string name="error_no_gps">Tu GPS esta desactivado, es necesario activarlo</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>

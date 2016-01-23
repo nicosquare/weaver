@@ -17,7 +17,7 @@
     <string name="powered_by">Powered by</string>
     <string name="parse">Parse</string>
     <string name="slogan">Relevos a un click de distancia</string>
-    <string name="error_no_gps">Tu GPS esta desactivado, ¿deseas activarlo?</string>
+    <string name="error_no_gps">Tu GPS esta desactivado, es necesario activarlo</string>
     <!-- Section labels -->
     <string name="action_settings">Configuraciones</string>
     <string name="action_return">Regresar</string>
