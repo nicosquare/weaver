@@ -289,7 +289,7 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="character_count_placeholder">0/140</string>
-    <string name="driver_info">Información del conductor</string>
+    <string name="driver_info">Información del conductor *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_blank_brand">ingrese la marca</string>
@@ -313,15 +313,18 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>
-    <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
+    <string name="error_wrong_login">Por favor revise, hay un error en la información ingresada</string>
+    <string name="error_wrong_loginel">No existe el correo, documento o celular ingresado</string>
     <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">!Hola mundo!</string>
     <string name="label_ask_takeover">Pedir relevo</string>
     <string name="label_can_takeover">Estoy disponible</string>
+    <string name="label_cant_takeover">No estoy disponible</string>
     <string name="label_need_takeover">¡Necesito un relevo!</string>
     <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
+    <string name="label_notification_stored_not">Su estado se ha actualizado a no disponible</string>
     <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
     <string name="login">Acceder</string>
     <string name="logout_full">Salir de Weaver</string>
@@ -341,12 +344,13 @@
     <eat-comment/>
     <string name="progress_requesting">Solicitando…</string>
     <string name="progress_signup">Registrando…</string>
-    <string name="prompt_cellphone">Celular</string>
-    <string name="prompt_document">Documento</string>
+    <string name="prompt_cellphone">Celular *</string>
+    <string name="prompt_document">Documento *</string>
     <string name="prompt_email">Correo electrónico</string>
-    <string name="prompt_fullname">Nombre completo</string>
-    <string name="prompt_password">Contraseña</string>
-    <string name="prompt_password_again">Confirmar contraseña</string>
+    <string name="prompt_email_cellphone_document">Correo, documento o celular</string>
+    <string name="prompt_fullname">Nombre completo *</string>
+    <string name="prompt_password">Contraseña *</string>
+    <string name="prompt_password_again">Confirmar contraseña *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="prompt_post">Post</string>
@@ -374,11 +378,12 @@
     <string name="title_activity_signup">Registrarse</string>
     <string name="title_activity_welcome">Bienvenido a Weaver</string>
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
-    <string name="veh_brand">Marca</string>
-    <string name="veh_capacity">Capacidad</string>
-    <string name="veh_info">Información del vehiculo</string>
-    <string name="veh_line">Línea</string>
-    <string name="veh_model">Modelo</string>
+    <string name="veh_brand">Marca *</string>
+    <string name="veh_capacity">Capacidad *</string>
+    <string name="veh_info">Información del vehiculo *</string>
+    <string name="veh_line">Línea *</string>
+    <string name="veh_model">Modelo *</string>
+    <string name="version">v.1.01</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

@@ -11,11 +11,13 @@ package com.parse.weaver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
@@ -31,9 +33,10 @@ public class MainActivity extends AppCompatActivity
     setContentView(R.layout.activity_main);
 
     Button needTakeover = (Button) findViewById(R.id.needTakeover);
-    Button canTakeover = (Button) findViewById(R.id.canTakeover);
+    final ToggleButton canTakeover = (ToggleButton) findViewById(R.id.canTakeover);
 
-    needTakeover.setOnClickListener(new View.OnClickListener() {
+    needTakeover.setOnClickListener(new View.OnClickListener()
+    {
         public void onClick(View view)
         {
             startActivity(new Intent(MainActivity.this, NeedTakeoverActivity.class));
@@ -41,14 +44,23 @@ public class MainActivity extends AppCompatActivity
 
     });
 
-      canTakeover.setOnClickListener(new View.OnClickListener() {
-      public void onClick(View view)
-      {
-          ParseUser.getCurrentUser().put("available",true);
-          ParseUser.getCurrentUser().saveInBackground();
-          Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored), Toast.LENGTH_LONG).show();
-      }
-
+    canTakeover.setOnClickListener(new View.OnClickListener()
+    {
+        public void onClick(View view)
+        {
+            if(canTakeover.isChecked())
+            {
+                ParseUser.getCurrentUser().put("available",true);
+                ParseUser.getCurrentUser().saveInBackground();
+                Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored), Toast.LENGTH_LONG).show();
+            }
+            else
+            {
+                ParseUser.getCurrentUser().put("available",false);
+                ParseUser.getCurrentUser().saveInBackground();
+                Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored_not), Toast.LENGTH_LONG).show();
+            }
+        }
     });
 
 

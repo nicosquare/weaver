@@ -48,8 +48,6 @@ public class DispatchActivity extends Activity
         // Check if there is current user info
         if (ParseUser.getCurrentUser().getUsername() != null)
         {
-            // Disable Avaiable option
-            ParseUser.getCurrentUser().put("available",false);
             // Fire Handler for location
             locationHandler.postDelayed(updateLocationThread, 0);
             // Start an intent for the logged in activity
@@ -67,7 +65,6 @@ public class DispatchActivity extends Activity
 
         public void run()
         {
-            Log.v("Location", "Update Location enter");
 
             //Set marker here
             ParseGeoPoint currentLocation = new ParseGeoPoint();

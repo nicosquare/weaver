@@ -104,11 +104,16 @@ public class SignupActivity extends Activity
                 validationErrorMessage.append(getString(R.string.error_blank_document));
             }
 
+            /*
+            * Email must not be mandatory in this moment
+            *
             if (email.length() == 0)
+
             {
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_email));
             }
+            */
 
             if (cellphone.length() == 0)
             {

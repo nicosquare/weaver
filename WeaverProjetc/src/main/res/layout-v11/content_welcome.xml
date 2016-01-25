@@ -34,31 +34,22 @@
         android:text="@string/signup" />
 
     <TextView
-        android:id="@+id/textview_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp"
-        android:text="@string/powered_by"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
-
-    <TextView
         android:id="@+id/textview_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textview_1"
+        android:layout_alignTop="@+id/signup_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
-        android:text="@string/parse"
+        android:layout_marginTop="99dp"
+        android:text="@string/version"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/textview_3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:layout_marginTop="193dp"
         android:text="@string/slogan"
         android:textAppearance="?android:attr/textAppearanceLarge" />

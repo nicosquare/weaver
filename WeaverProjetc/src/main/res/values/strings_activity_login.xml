@@ -2,13 +2,14 @@
 
     <string name="title_activity_login">Acceder</string>
     <!-- User info -->
-    <string name="prompt_fullname">Nombre completo</string>
-    <string name="prompt_document">Documento</string>
+    <string name="prompt_fullname">Nombre completo *</string>
+    <string name="prompt_document">Documento *</string>
     <string name="prompt_email">Correo electrónico</string>
-    <string name="prompt_cellphone">Celular</string>
+    <string name="prompt_email_cellphone_document">Correo, documento o celular</string>
+    <string name="prompt_cellphone">Celular *</string>
     <string name="prompt_username">Usuario</string>
-    <string name="prompt_password">Contraseña</string>
-    <string name="prompt_password_again">Confirmar contraseña</string>
+    <string name="prompt_password">Contraseña *</string>
+    <string name="prompt_password_again">Confirmar contraseña *</string>
     <!-- Errors -->
     <string name="error_intro">"Por favor "</string>
     <string name="error_blank_fullname">ingrese un usuario</string>
@@ -26,7 +27,8 @@
     <string name="error_join">", y "</string>
     <string name="error_end">.</string>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>
-    <string name="error_wrong_login">Por favor revise, hay un error en el correo o en la contraseña</string>
+    <string name="error_wrong_loginel">No existe el correo, documento o celular ingresado</string>
+    <string name="error_wrong_login">Por favor revise, hay un error en la información ingresada</string>
     <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
     <!-- Dialogs -->
     <string name="progress_login">Accediendo&#8230;</string>

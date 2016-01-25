@@ -2,8 +2,11 @@ package com.parse.weaver;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -25,8 +28,10 @@ import com.parse.ParseUser;
 public class LoginActivity extends Activity
 {
     // UI references.
-    private EditText emailEditText;
+    private EditText loginElementEditText;
     private EditText passwordEditText;
+    private SharedPreferences loginPrefs;
+    private SharedPreferences.Editor loginPrefsEditor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,8 +40,10 @@ public class LoginActivity extends Activity
 
         setContentView(R.layout.activity_login);
 
+        loginPrefs = this.getSharedPreferences("loginPreferences", Context.MODE_PRIVATE);
+
         // Set up the login form.
-        emailEditText = (EditText) findViewById(R.id.email);
+        loginElementEditText = (EditText) findViewById(R.id.login_element);
         passwordEditText = (EditText) findViewById(R.id.password);
         passwordEditText.setOnEditorActionListener(new TextView.OnEditorActionListener()
         {
@@ -62,18 +69,23 @@ public class LoginActivity extends Activity
                 login();
             }
         });
+
+        loginElementEditText.setText(loginPrefs.getString("loginElement", ""));
+        passwordEditText.setText(loginPrefs.getString("password", ""));
+
     }
 
     private void login()
     {
-        String email = emailEditText.getText().toString().trim();
+        final String loginElement = loginElementEditText.getText().toString().trim();
         final String password = passwordEditText.getText().toString().trim();
+        String column = "";
 
         // Validate the log in data
         boolean validationError = false;
         StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
 
-        if (email.length() == 0)
+        if (loginElement.length() == 0)
         {
             validationError = true;
             validationErrorMessage.append(getString(R.string.error_blank_email));
@@ -105,15 +117,99 @@ public class LoginActivity extends Activity
         // Get username by email
         ParseQuery<ParseUser> query = ParseUser.getQuery();
 
-        query.whereEqualTo("email", email);
+        query.whereEqualTo("email", loginElement);
         query.getFirstInBackground(new GetCallback<ParseUser>()
         {
             public void done(ParseUser object, ParseException e)
             {
                 if (object == null)
                 {
-                    dialog.dismiss();
-                    Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_email), Toast.LENGTH_LONG).show();
+                    ParseQuery<ParseUser> query = ParseUser.getQuery();
+
+                    query.whereEqualTo("cellphone", loginElement);
+                    query.getFirstInBackground(new GetCallback<ParseUser>()
+                    {
+                        public void done(ParseUser object, ParseException e)
+                        {
+                            if (object == null)
+                            {
+                                ParseQuery<ParseUser> query = ParseUser.getQuery();
+
+                                query.whereEqualTo("document", loginElement);
+                                query.getFirstInBackground(new GetCallback<ParseUser>()
+                                {
+                                    public void done(ParseUser object, ParseException e)
+                                    {
+                                        if (object == null)
+                                        {
+                                            dialog.dismiss();
+                                            Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_loginel), Toast.LENGTH_LONG).show();
+                                        } else
+                                        {
+                                            String username = object.get("username").toString();
+
+                                            ParseUser.logInInBackground(username, password, new LogInCallback()
+                                            {
+                                                @Override
+                                                public void done(ParseUser user, ParseException e)
+                                                {
+                                                    dialog.dismiss();
+                                                    if (e != null)
+                                                    {
+                                                        // Show the error message
+                                                        Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
+                                                    } else
+                                                    {
+                                                        loginPrefsEditor = loginPrefs.edit();
+
+                                                        loginPrefsEditor.putString("loginElement", loginElement);
+                                                        loginPrefsEditor.putString("password", password);
+                                                        loginPrefsEditor.commit();
+
+                                                        // Start an intent for the dispatch activity
+                                                        Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
+                                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                        startActivity(intent);
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    }
+                                });
+
+                            } else
+                            {
+                                String username = object.get("username").toString();
+
+                                ParseUser.logInInBackground(username, password, new LogInCallback()
+                                {
+                                    @Override
+                                    public void done(ParseUser user, ParseException e)
+                                    {
+                                        dialog.dismiss();
+                                        if (e != null)
+                                        {
+                                            // Show the error message
+                                            Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
+                                        } else
+                                        {
+                                            loginPrefsEditor = loginPrefs.edit();
+
+                                            loginPrefsEditor.putString("loginElement", loginElement);
+                                            loginPrefsEditor.putString("password", password);
+                                            loginPrefsEditor.commit();
+
+                                            // Start an intent for the dispatch activity
+                                            Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
+                                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                            startActivity(intent);
+                                        }
+                                    }
+                                });
+                            }
+                        }
+                    });
+
                 } else
                 {
                     String username = object.get("username").toString();
@@ -130,6 +226,12 @@ public class LoginActivity extends Activity
                                 Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
                             } else
                             {
+                                loginPrefsEditor = loginPrefs.edit();
+
+                                loginPrefsEditor.putString("loginElement", loginElement);
+                                loginPrefsEditor.putString("password", password);
+                                loginPrefsEditor.commit();
+
                                 // Start an intent for the dispatch activity
                                 Intent intent = new Intent(LoginActivity.this, DispatchActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -142,4 +244,5 @@ public class LoginActivity extends Activity
         });
 
     }
+
 }
