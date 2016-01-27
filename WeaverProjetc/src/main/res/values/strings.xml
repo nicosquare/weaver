@@ -38,12 +38,16 @@
     <string name="title_activity_welcome">Bienvenido a Weaver</string>
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
     <string name="label_need_takeover">¡Necesito un relevo!</string>
+    <string name="label_available">Estado actual: Disponible</string>
+    <string name="label_not_available">Estado actual: No disponible</string>
     <string name="label_can_takeover">Estoy disponible</string>
-    <string name="label_cant_takeover">No estoy disponible</string>
+    <string name="label_cant_takeover">Ya no estoy disponible</string>
     <string name="label_ask_takeover">Pedir relevo</string>
     <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
     <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
     <string name="label_notification_stored_not">Su estado se ha actualizado a no disponible</string>
+    <string name="label_state_available">Estado actual: Disponible</string>
+    <string name="label_state_not_available">Estado actual: No disponible</string>
     <!-- Login info -->
     <string name="driver_info">Información del conductor *</string>
     <string name="veh_info">Información del vehiculo *</string>

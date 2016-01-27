@@ -9,6 +9,7 @@
 package com.parse.weaver;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -16,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -34,6 +36,20 @@ public class MainActivity extends AppCompatActivity
 
     Button needTakeover = (Button) findViewById(R.id.needTakeover);
     final ToggleButton canTakeover = (ToggleButton) findViewById(R.id.canTakeover);
+    TextView state = (TextView) findViewById(R.id.textViewState);
+
+    if(ParseUser.getCurrentUser().get("available") == "true")
+    {
+        state.setTextColor(Color.rgb(51, 180, 102));
+        state.setText(getString(R.string.label_state_available));
+        canTakeover.setChecked(true);
+    }
+    else
+    {
+        state.setTextColor(Color.RED);
+        state.setText(getString(R.string.label_state_not_available));
+        canTakeover.setChecked(false);
+    }
 
     needTakeover.setOnClickListener(new View.OnClickListener()
     {
@@ -48,15 +64,24 @@ public class MainActivity extends AppCompatActivity
     {
         public void onClick(View view)
         {
+
+            TextView state = (TextView) findViewById(R.id.textViewState);
+
             if(canTakeover.isChecked())
             {
-                ParseUser.getCurrentUser().put("available",true);
+                ParseUser.getCurrentUser().put("available", true);
+                state.setText(getString(R.string.label_state_available));
+                state.setTextColor(Color.rgb(51,180,102));
+
                 ParseUser.getCurrentUser().saveInBackground();
                 Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored), Toast.LENGTH_LONG).show();
             }
             else
             {
                 ParseUser.getCurrentUser().put("available",false);
+                state.setText(getString(R.string.label_state_not_available));
+                state.setTextColor(Color.RED);
+
                 ParseUser.getCurrentUser().saveInBackground();
                 Toast.makeText(MainActivity.this, getString(R.string.label_notification_stored_not), Toast.LENGTH_LONG).show();
             }

@@ -8,8 +8,8 @@ android {
         applicationId "com.parse.weaver"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
-        versionName "1.01"
+        versionCode 3
+        versionName "1.02"
     }
     buildTypes {
         release {
@@ -24,4 +24,7 @@ dependencies {
     compile 'com.android.support:design:22.2.1'
     compile 'com.parse.bolts:bolts-android:1.+'
     compile 'com.parse:parse-android:1.+'
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/mail.jar')
 }

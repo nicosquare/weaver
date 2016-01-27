@@ -43,7 +43,18 @@
         android:id="@+id/canTakeover"
         android:layout_below="@+id/needTakeover"
         android:layout_marginTop="30dp"
-        android:textOn="@string/label_can_takeover"
-        android:textOff="@string/label_cant_takeover"/>
+        android:textOn="@string/label_cant_takeover"
+        android:textOff="@string/label_can_takeover"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_not_available"
+        android:id="@+id/textViewState"
+        android:layout_below="@+id/canTakeover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

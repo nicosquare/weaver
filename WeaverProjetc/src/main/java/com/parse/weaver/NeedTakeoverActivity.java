@@ -2,8 +2,8 @@ package com.parse.weaver;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,6 +15,7 @@ import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.utilities.GMailSenderAsync;
 
 public class NeedTakeoverActivity extends AppCompatActivity
 {
@@ -61,7 +62,7 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
     private void putTakeoverRequest()
     {
-        String detail = takeoverDetail.getText().toString();
+        final String detail = takeoverDetail.getText().toString();
 
         // Validate the log in data
         boolean validationError = false;
@@ -100,6 +101,18 @@ public class NeedTakeoverActivity extends AppCompatActivity
                 {
                     dialog.dismiss();
                     Toast.makeText(NeedTakeoverActivity.this, getString(R.string.label_petition_stored), Toast.LENGTH_LONG).show();
+
+                    GMailSenderAsync asyncMailSenderNicolas = new GMailSenderAsync();
+                    asyncMailSenderNicolas.execute(new String[]{ParseUser.getCurrentUser().get("fullname").toString(), ParseUser.getCurrentUser().get("cellphone").toString(), detail, "nicolas@weavercol.com"});
+
+                    GMailSenderAsync asyncMailSenderWilmar = new GMailSenderAsync();
+                    asyncMailSenderWilmar.execute(new String[]{ParseUser.getCurrentUser().get("fullname").toString(), ParseUser.getCurrentUser().get("cellphone").toString(), detail, "wilmar@weavercol.com"});
+
+                    GMailSenderAsync asyncMailSenderDavid = new GMailSenderAsync();
+                    asyncMailSenderDavid.execute(new String []{ParseUser.getCurrentUser().get("fullname").toString(), ParseUser.getCurrentUser().get("cellphone").toString(), detail, "david@weavercol.com"});
+
+                    GMailSenderAsync asyncMailSenderWeaver = new GMailSenderAsync();
+                    asyncMailSenderWeaver.execute(new String []{ParseUser.getCurrentUser().get("fullname").toString(), ParseUser.getCurrentUser().get("cellphone").toString(), detail, "contacto.weaver@gmail.com"});
 
                     Intent intent = new Intent(NeedTakeoverActivity.this, DispatchActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
