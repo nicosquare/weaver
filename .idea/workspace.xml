@@ -73,18 +73,16 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3461479-85e8-41f7-b59b-2d9ba845499b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/drawable-hdpi/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/drawable-hdpi/van_original.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/drawable-hdpi/van_return.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/drawable-hdpi/van_stucked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/drawable-hdpi/weavercol_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/PasswordForgottenActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_password_forgotten.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/content_password_forgotten.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc-release.apk" afterPath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc-release.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
@@ -92,18 +90,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/buildConfig/androidTest/debug/com/parse/weaver/test/BuildConfig.java" afterPath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/buildConfig/androidTest/debug/com/parse/weaver/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/buildConfig/debug/com/parse/weaver/BuildConfig.java" afterPath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/buildConfig/debug/com/parse/weaver/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/com/parse/weaver/R.java" afterPath="$PROJECT_DIR$/WeaverProjetc/build/generated/source/r/debug/com/parse/weaver/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc.iml" afterPath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_need_takeover.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_need_takeover.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build.gradle" afterPath="$PROJECT_DIR$/WeaverProjetc/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/WeaverProjetc/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -133,83 +139,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NeedTakeoverActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java">
+      <file leaf-file-name="SignupActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="185" column="90" selection-start-line="185" selection-start-column="90" selection-end-line="185" selection-end-column="90" />
-              <folding>
-                <element signature="e#2399#2759#0" expanded="true" />
-                <element signature="e#2758#2759#0" expanded="true" />
-                <element signature="e#2934#3089#0" expanded="true" />
-                <element signature="e#3088#3089#0" expanded="true" />
-                <element signature="e#3791#3822#0" expanded="true" />
-                <element signature="e#3946#3982#0" expanded="true" />
-                <element signature="e#4279#4308#0" expanded="true" />
-                <element signature="e#4727#4766#0" expanded="true" />
-                <element signature="e#5315#8773#0" expanded="true" />
-                <element signature="e#5732#8136#0" expanded="true" />
-                <element signature="e#6017#6058#0" expanded="true" />
-                <element signature="e#7990#8030#0" expanded="true" />
-                <element signature="e#8135#8136#0" expanded="true" />
-                <element signature="e#8204#8645#0" expanded="true" />
-                <element signature="e#8644#8645#0" expanded="true" />
-                <element signature="e#8772#8773#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings_activity_takeover.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state vertical-scroll-proportion="-0.21827412">
+              <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GMailSenderAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GMailSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_need_takeover.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_need_takeover.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20353982">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding>
-                <element signature="e#272#305#0" expanded="true" />
-                <element signature="e#330#365#0" expanded="true" />
-                <element signature="e#391#426#0" expanded="true" />
-                <element signature="e#450#483#0" expanded="true" />
-                <element signature="e#1245#1273#0" expanded="true" />
-                <element signature="e#1818#1846#0" expanded="true" />
-                <element signature="e#2288#2320#0" expanded="true" />
-                <element signature="e#2870#2902#0" expanded="true" />
-                <element signature="e#3362#3390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1353,7 +1289,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4358557308160" />
+        <entry key="$PROJECT_DIR$" value="4358568792308" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1788,26 +1724,28 @@
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/menu/menu_need_takeover.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeover.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/WeaverApplication.java" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/content_welcome.xml" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout-v11/content_welcome.xml" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/JSSEProvider.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSender.java" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/build.gradle" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/DispatchActivity.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/MainActivity.java" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_main.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml" />
         <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_need_takeover.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/content_password_forgotten.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/PasswordForgottenActivity.java" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/build.gradle" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml" />
+        <option value="$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java" />
       </list>
     </option>
   </component>
@@ -2057,6 +1995,10 @@
               <option name="myItemId" value="WeaverApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2088,24 +2030,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeaverApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeaverProjetc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2408,8 +2332,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66925466" sideWeight="0.50883937" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3558776" sideWeight="0.49116063" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32828686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3558776" sideWeight="0.49116063" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49730977" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -2417,7 +2341,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21992032" sideWeight="0.475" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21992032" sideWeight="0.475" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2431,6 +2355,38 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22059953" sideWeight="0.525" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66925466" sideWeight="0.50883937" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3558776" sideWeight="0.49116063" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49730977" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21992032" sideWeight="0.475" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2667,25 +2623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0234375">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="207" column="35" selection-start-line="207" selection-start-column="35" selection-end-line="207" selection-end-column="35" />
-          <folding>
-            <element signature="e#7781#9327#0" expanded="false" />
-            <element signature="e#9326#9327#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55583125">
@@ -2697,22 +2634,6 @@
             <element signature="e#2579#2618#0" expanded="false" />
             <element signature="e#2888#2889#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8020304">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2738,22 +2659,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_main.xml">
@@ -2789,64 +2694,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="185" column="90" selection-start-line="185" selection-start-column="90" selection-end-line="185" selection-end-column="90" />
-          <folding>
-            <element signature="e#2399#2759#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
-            <element signature="e#2934#3089#0" expanded="true" />
-            <element signature="e#3088#3089#0" expanded="true" />
-            <element signature="e#3791#3822#0" expanded="true" />
-            <element signature="e#3946#3982#0" expanded="true" />
-            <element signature="e#4279#4308#0" expanded="true" />
-            <element signature="e#4727#4766#0" expanded="true" />
-            <element signature="e#5315#8773#0" expanded="true" />
-            <element signature="e#5732#8136#0" expanded="true" />
-            <element signature="e#6017#6058#0" expanded="true" />
-            <element signature="e#7990#8030#0" expanded="true" />
-            <element signature="e#8135#8136#0" expanded="true" />
-            <element signature="e#8204#8645#0" expanded="true" />
-            <element signature="e#8644#8645#0" expanded="true" />
-            <element signature="e#8772#8773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067567565">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_need_takeover.xml">
@@ -2868,6 +2721,159 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.645162">
+          <caret line="227" column="54" selection-start-line="224" selection-start-column="32" selection-end-line="227" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2238#2360#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2541#2961#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#3491#3522#0" expanded="true" />
+            <element signature="e#3654#3691#0" expanded="true" />
+            <element signature="e#3844#3874#0" expanded="true" />
+            <element signature="e#3969#4009#0" expanded="true" />
+            <element signature="e#4060#4089#0" expanded="true" />
+            <element signature="e#4486#4520#0" expanded="true" />
+            <element signature="e#5757#5796#0" expanded="true" />
+            <element signature="e#6557#6594#0" expanded="true" />
+            <element signature="e#8001#9399#0" expanded="true" />
+            <element signature="e#8422#8459#0" expanded="true" />
+            <element signature="e#9398#9399#0" expanded="true" />
+            <element signature="e#9999#10036#0" expanded="true" />
+            <element signature="e#10945#11504#0" expanded="true" />
+            <element signature="e#11503#11504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/PasswordForgottenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+          <folding>
+            <element signature="e#1241#1391#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1671#1702#0" expanded="true" />
+            <element signature="e#1835#1885#0" expanded="true" />
+            <element signature="e#1937#1966#0" expanded="true" />
+            <element signature="e#2387#2421#0" expanded="true" />
+            <element signature="e#2629#6788#0" expanded="true" />
+            <element signature="e#2989#6010#0" expanded="true" />
+            <element signature="e#3444#5051#0" expanded="true" />
+            <element signature="e#3889#3928#0" expanded="true" />
+            <element signature="e#4654#4693#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
+            <element signature="e#5672#5711#0" expanded="true" />
+            <element signature="e#6009#6010#0" expanded="true" />
+            <element signature="e#6511#6550#0" expanded="true" />
+            <element signature="e#6787#6788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/utilities/GMailSenderAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6891892">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2094395">
+          <caret line="65" column="23" selection-start-line="11" selection-start-column="8" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="e#1040#1081#0" expanded="true" />
+            <element signature="e#1416#1441#0" expanded="true" />
+            <element signature="e#1674#1689#0" expanded="true" />
+            <element signature="e#2131#2146#0" expanded="true" />
+            <element signature="e#2541#2565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5540541">
+          <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/NeedTakeoverActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9324324">
+          <caret line="192" column="111" selection-start-line="187" selection-start-column="32" selection-end-line="192" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/content_password_forgotten.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2389381">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#564#604#0" expanded="true" />
+            <element signature="e#1379#1420#0" expanded="true" />
+            <element signature="e#1892#1909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0689654">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6896553">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36486486">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6099707">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/java/com/parse/weaver/SignupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21827412">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -23,6 +23,7 @@
     <!-- Errors -->
     <string name="error_blank_fullname">ingrese un usuario</string>
     <string name="error_blank_document">ingrese un usuario</string>
+    <string name="error_email_cellphone_document">ingrese un correo, documento o celular</string>
     <string name="error_blank_email">ingrese un correo electrónico</string>
     <string name="error_blank_cellphone">ingrese un teléfono celular</string>
     <string name="error_blank_password">ingrese una contraseña</string>
@@ -37,5 +38,6 @@
     <string name="error_wrong_loginel">No existe el correo, documento o celular ingresado</string>
     <string name="error_wrong_login">Por favor revise, hay un error en la información ingresada</string>
     <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
-
+    <!-- Alerts -->
+    <string name="alert_pass_recovery">Nos comunicareos pronto para restituir tu contraseña</string>
 </resources>

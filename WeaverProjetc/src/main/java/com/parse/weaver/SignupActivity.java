@@ -184,7 +184,14 @@ public class SignupActivity extends Activity
 
         user.setUsername(username);
         user.put("fullname",fullname);
-        user.put("document",document);
+        user.put("document", document);
+
+        if (email.length() == 0)
+        {
+            user.setEmail(document+"@weavercol.com");
+        }
+        else user.setEmail(email);
+
         user.setEmail(email);
         user.put("cellphone",cellphone);
         user.setUsername(username);

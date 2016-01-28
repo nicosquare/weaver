@@ -19,6 +19,7 @@
     <string name="logout_full">Salir de Weaver</string>
     <!-- Dialogs -->
     <string name="progress_login">Accediendo&#8230;</string>
+    <string name="progress_processing">Procesando&#8230;</string>
     <string name="progress_signup">Registrando&#8230;</string>
     <string name="progress_requesting">Solicitando&#8230;</string>
     <!-- Errors -->
@@ -26,5 +27,6 @@
     <string name="error_join">", y "</string>
     <string name="error_end">.</string>
     <string name="error_no_gps">Tu GPS esta desactivado, es necesario activarlo</string>
+    <string name="title_activity_password_forgotten">PasswordForgottenActivity</string>
 
 </resources>

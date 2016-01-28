@@ -281,6 +281,11 @@
     <eat-comment/>
     <string name="action_return">Regresar</string>
     <string name="action_settings">Configuraciones</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="alert_pass_recovery">Nos comunicareos pronto para restituir tu contraseña</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="app_name">Weaver</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
@@ -307,6 +312,9 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="error_blank_time">ingresa tu estimado de tiempo</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
+    <string name="error_email_cellphone_document">ingrese un correo, documento o celular</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="error_end">.</string>
@@ -343,7 +351,13 @@
     <string name="logout_full">Salir de Weaver</string>
     <string name="parse_app_id">7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX</string>
     <string name="parse_client_key">KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
+    <eat-comment/>
+    <string name="pass_forgotten">Olvidé mi contraseña</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="progress_login">Accediendo…</string>
+    <string name="progress_processing">Procesando…</string>
     <string name="progress_requesting">Solicitando…</string>
     <string name="progress_signup">Registrando…</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
@@ -362,6 +376,9 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="prompt_username">Usuario</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
+    <eat-comment/>
+    <string name="recover">Recuperar</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
@@ -379,6 +396,7 @@
     <string name="title_activity_login">Acceder</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_password_forgotten">PasswordForgottenActivity</string>
     <string name="title_activity_settings">Configuraciones</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
@@ -401,7 +419,7 @@
     <string name="veh_model">Modelo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
-    <string name="version">v.1.01</string>
+    <string name="version">v.1.04</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

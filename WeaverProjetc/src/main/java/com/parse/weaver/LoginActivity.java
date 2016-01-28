@@ -1,8 +1,10 @@
 package com.parse.weaver;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -21,6 +23,7 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.RequestPasswordResetCallback;
 
 /**
  * Activity which displays a login screen to the user, offering registration as well.
@@ -62,11 +65,22 @@ public class LoginActivity extends Activity
 
         // Set up the submit button click handler
         Button actionButton = (Button) findViewById(R.id.action_button);
-        actionButton.setOnClickListener(new View.OnClickListener()
+        actionButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                login();
+            }
+        });
+
+        // Set up the submit button click handler
+        Button passResetButton = (Button) findViewById(R.id.forgotten_pass_button);
+        passResetButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view)
             {
-                login();
+                AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+                builder.setMessage("¿Olvidaste tu contraseña?")
+                        .setPositiveButton("Si", dialogClickListener)
+                        .setNegativeButton("No", dialogClickListener).show();
             }
         });
 
@@ -118,48 +132,34 @@ public class LoginActivity extends Activity
         ParseQuery<ParseUser> query = ParseUser.getQuery();
 
         query.whereEqualTo("email", loginElement);
-        query.getFirstInBackground(new GetCallback<ParseUser>()
-        {
-            public void done(ParseUser object, ParseException e)
-            {
-                if (object == null)
-                {
+        query.getFirstInBackground(new GetCallback<ParseUser>() {
+            public void done(ParseUser object, ParseException e) {
+                if (object == null) {
                     ParseQuery<ParseUser> query = ParseUser.getQuery();
 
                     query.whereEqualTo("cellphone", loginElement);
-                    query.getFirstInBackground(new GetCallback<ParseUser>()
-                    {
-                        public void done(ParseUser object, ParseException e)
-                        {
-                            if (object == null)
-                            {
+                    query.getFirstInBackground(new GetCallback<ParseUser>() {
+                        public void done(ParseUser object, ParseException e) {
+                            if (object == null) {
                                 ParseQuery<ParseUser> query = ParseUser.getQuery();
 
                                 query.whereEqualTo("document", loginElement);
-                                query.getFirstInBackground(new GetCallback<ParseUser>()
-                                {
-                                    public void done(ParseUser object, ParseException e)
-                                    {
-                                        if (object == null)
-                                        {
+                                query.getFirstInBackground(new GetCallback<ParseUser>() {
+                                    public void done(ParseUser object, ParseException e) {
+                                        if (object == null) {
                                             dialog.dismiss();
                                             Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_loginel), Toast.LENGTH_LONG).show();
-                                        } else
-                                        {
+                                        } else {
                                             String username = object.get("username").toString();
 
-                                            ParseUser.logInInBackground(username, password, new LogInCallback()
-                                            {
+                                            ParseUser.logInInBackground(username, password, new LogInCallback() {
                                                 @Override
-                                                public void done(ParseUser user, ParseException e)
-                                                {
+                                                public void done(ParseUser user, ParseException e) {
                                                     dialog.dismiss();
-                                                    if (e != null)
-                                                    {
+                                                    if (e != null) {
                                                         // Show the error message
                                                         Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
-                                                    } else
-                                                    {
+                                                    } else {
                                                         loginPrefsEditor = loginPrefs.edit();
 
                                                         loginPrefsEditor.putString("loginElement", loginElement);
@@ -177,22 +177,17 @@ public class LoginActivity extends Activity
                                     }
                                 });
 
-                            } else
-                            {
+                            } else {
                                 String username = object.get("username").toString();
 
-                                ParseUser.logInInBackground(username, password, new LogInCallback()
-                                {
+                                ParseUser.logInInBackground(username, password, new LogInCallback() {
                                     @Override
-                                    public void done(ParseUser user, ParseException e)
-                                    {
+                                    public void done(ParseUser user, ParseException e) {
                                         dialog.dismiss();
-                                        if (e != null)
-                                        {
+                                        if (e != null) {
                                             // Show the error message
                                             Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
-                                        } else
-                                        {
+                                        } else {
                                             loginPrefsEditor = loginPrefs.edit();
 
                                             loginPrefsEditor.putString("loginElement", loginElement);
@@ -210,22 +205,17 @@ public class LoginActivity extends Activity
                         }
                     });
 
-                } else
-                {
+                } else {
                     String username = object.get("username").toString();
 
-                    ParseUser.logInInBackground(username, password, new LogInCallback()
-                    {
+                    ParseUser.logInInBackground(username, password, new LogInCallback() {
                         @Override
-                        public void done(ParseUser user, ParseException e)
-                        {
+                        public void done(ParseUser user, ParseException e) {
                             dialog.dismiss();
-                            if (e != null)
-                            {
+                            if (e != null) {
                                 // Show the error message
                                 Toast.makeText(LoginActivity.this, getString(R.string.error_wrong_login), Toast.LENGTH_LONG).show();
-                            } else
-                            {
+                            } else {
                                 loginPrefsEditor = loginPrefs.edit();
 
                                 loginPrefsEditor.putString("loginElement", loginElement);
@@ -244,5 +234,23 @@ public class LoginActivity extends Activity
         });
 
     }
+
+    DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener()
+    {
+        @Override
+        public void onClick(DialogInterface dialog, int which)
+        {
+            switch (which)
+            {
+                case DialogInterface.BUTTON_POSITIVE:
+                    startActivity(new Intent(LoginActivity.this, PasswordForgottenActivity.class));
+                    break;
+
+                case DialogInterface.BUTTON_NEGATIVE:
+                    startActivity(new Intent(LoginActivity.this, DispatchActivity.class));
+                    break;
+            }
+        }
+    };
 
 }

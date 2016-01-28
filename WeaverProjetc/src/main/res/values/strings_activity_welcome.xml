@@ -10,10 +10,12 @@
     <!-- Activity info -->
     <string name="title_activity_welcome">Bienvenido a Weaver</string>
     <!-- Miscenlaneous -->
-    <string name="version">v.1.01</string>
+    <string name="version">v.1.04</string>
     <string name="slogan">Relevos a un click de distancia</string>
     <!-- Section labels -->
     <string name="login">Acceder</string>
+    <string name="recover">Recuperar</string>
+    <string name="pass_forgotten">Olvidé mi contraseña</string>
     <string name="signup">Registrate</string>
 
 </resources>
