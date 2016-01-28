@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity
     if(ParseUser.getCurrentUser().get("available") == "true")
     {
         state.setTextColor(Color.rgb(51, 180, 102));
-        state.setText(getString(R.string.label_state_available));
+        state.setText(getString(R.string.label_available));
         canTakeover.setChecked(true);
     }
     else
     {
         state.setTextColor(Color.RED);
-        state.setText(getString(R.string.label_state_not_available));
+        state.setText(getString(R.string.label_not_available));
         canTakeover.setChecked(false);
     }
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
             if(canTakeover.isChecked())
             {
                 ParseUser.getCurrentUser().put("available", true);
-                state.setText(getString(R.string.label_state_available));
+                state.setText(getString(R.string.label_available));
                 state.setTextColor(Color.rgb(51,180,102));
 
                 ParseUser.getCurrentUser().saveInBackground();
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity
             else
             {
                 ParseUser.getCurrentUser().put("available",false);
-                state.setText(getString(R.string.label_state_not_available));
+                state.setText(getString(R.string.label_not_available));
                 state.setTextColor(Color.RED);
 
                 ParseUser.getCurrentUser().saveInBackground();

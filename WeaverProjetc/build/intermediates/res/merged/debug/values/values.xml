@@ -328,8 +328,6 @@
     <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
     <string name="label_notification_stored_not">Su estado se ha actualizado a no disponible</string>
     <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
-    <string name="label_state_available">Estado actual: Disponible</string>
-    <string name="label_state_not_available">Estado actual: No disponible</string>
     <string name="login">Acceder</string>
     <string name="logout_full">Salir de Weaver</string>
     <string name="parse">Parse</string>

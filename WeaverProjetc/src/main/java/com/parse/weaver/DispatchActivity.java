@@ -78,8 +78,8 @@ public class DispatchActivity extends Activity
                     {
                         Log.v("Location", "Update Location");
 
-                        ParseUser.getCurrentUser().put("loc_lat", String.valueOf(geoPoint.getLongitude()));
-                        ParseUser.getCurrentUser().put                                                                                                  ("loc_lng", String.valueOf(geoPoint.getLongitude()));
+                        ParseUser.getCurrentUser().put("loc_lat", String.valueOf(geoPoint.getLatitude()));
+                        ParseUser.getCurrentUser().put("loc_lng", String.valueOf(geoPoint.getLongitude()));
 
                         ParseUser.getCurrentUser().saveInBackground(new SaveCallback()
                         {
@@ -106,7 +106,7 @@ public class DispatchActivity extends Activity
             });
 
             // Update location each 5 minutes
-            locationHandler.postDelayed(this, 1000*60*5);
+            locationHandler.postDelayed(this, 1000*60*2);
         }
     };
 
