@@ -281,15 +281,16 @@
     <eat-comment/>
     <string name="action_return">Regresar</string>
     <string name="action_settings">Configuraciones</string>
-    <string name="activity_post_title">Create a Post</string>
     <string name="app_name">Weaver</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
-    <string name="character_count_placeholder">0/140</string>
     <string name="driver_info">Información del conductor *</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="error_blank_TO_detail">ingrese el detalle sobre el destino</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_blank_brand">ingrese la marca</string>
@@ -303,9 +304,16 @@
     <string name="error_blank_model">ingrese el modelo</string>
     <string name="error_blank_password">ingrese una contraseña</string>
     <string name="error_blank_terms">acepte los terminos y condiciones</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="error_blank_time">ingresa tu estimado de tiempo</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="error_end">.</string>
     <string name="error_intro">"Por favor "</string>
     <string name="error_join">", y "</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="error_mismatched_passwords">ingrese la misma contraseña dos veces</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
@@ -316,36 +324,30 @@
     <string name="error_wrong_login">Por favor revise, hay un error en la información ingresada</string>
     <string name="error_wrong_loginel">No existe el correo, documento o celular ingresado</string>
     <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="hello_world">!Hola mundo!</string>
     <string name="label_ask_takeover">Pedir relevo</string>
     <string name="label_available">Estado actual: Disponible</string>
-    <string name="label_can_takeover">Estoy disponible</string>
-    <string name="label_cant_takeover">Ya no estoy disponible</string>
+    <string name="label_can_takeover">Cambiar a: Estoy disponible</string>
+    <string name="label_cant_takeover">Cambiar a: No estoy disponible</string>
     <string name="label_need_takeover">¡Necesito un relevo!</string>
     <string name="label_not_available">Estado actual: No disponible</string>
-    <string name="label_notification_stored">Su estado se ha actualizado a disponible</string>
-    <string name="label_notification_stored_not">Su estado se ha actualizado a no disponible</string>
-    <string name="label_petition_stored">Su petición fue registrada, en breve nos comunicaremos con usted</string>
-    <string name="login">Acceder</string>
-    <string name="logout_full">Salir de Weaver</string>
-    <string name="parse">Parse</string>
-    <string name="parse_app_id">7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX</string>
-    <string name="parse_client_key">KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE</string>
-    <string name="post">Post</string>
-    <string name="post_out_of_range">Can\'t view post! Get closer.</string>
-    <string name="powered_by">Powered by</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
+    <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
+    <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
-    <string name="progress_login">Accediendo…</string>
+    <string name="login">Acceder</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="progress_post">Posting…</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
-    <eat-comment/>
+    <string name="logout_full">Salir de Weaver</string>
+    <string name="parse_app_id">7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX</string>
+    <string name="parse_client_key">KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE</string>
+    <string name="progress_login">Accediendo…</string>
     <string name="progress_requesting">Solicitando…</string>
     <string name="progress_signup">Registrando…</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="prompt_cellphone">Celular *</string>
     <string name="prompt_document">Documento *</string>
     <string name="prompt_email">Correo electrónico</string>
@@ -353,38 +355,52 @@
     <string name="prompt_fullname">Nombre completo *</string>
     <string name="prompt_password">Contraseña *</string>
     <string name="prompt_password_again">Confirmar contraseña *</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="prompt_post">Post</string>
+    <string name="prompt_takeover_detail">indicación, cerca a ...</string>
+    <string name="prompt_time_detail">tiempo estimado</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="prompt_username">Usuario</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="search_takeover_detail">Por favor indique el destino con el mayor detalle posible</string>
-    <string name="settings_distance_format">%d feet</string>
+    <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
+    <string name="search_time_detail">Danos un estimado de tiempo *</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
+    <eat-comment/>
     <string name="signup">Registrate</string>
     <string name="slogan">Relevos a un click de distancia</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
-    <eat-comment/>
-    <string name="terms">Acepto terminos y condiciones</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
+    <string name="terms">Acepto terminos y condiciones</string>
     <string name="title_activity_login">Acceder</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_settings">Configuraciones</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="title_activity_signup">Registrarse</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="title_activity_takeover">Relevos</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
+    <eat-comment/>
     <string name="title_activity_welcome">Bienvenido a Weaver</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="veh_brand">Marca *</string>
     <string name="veh_capacity">Capacidad *</string>
     <string name="veh_info">Información del vehiculo *</string>
     <string name="veh_line">Línea *</string>
     <string name="veh_model">Modelo *</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
+    <eat-comment/>
     <string name="version">v.1.01</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>

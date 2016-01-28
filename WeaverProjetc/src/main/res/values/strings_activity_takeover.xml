@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Activity info -->
+    <string name="title_activity_takeover">Relevos</string>
+    <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
+    <!-- Activity labels -->
+    <string name="label_available">Estado actual: Disponible</string>
+    <string name="label_not_available">Estado actual: No disponible</string>
+    <!-- Button labels -->
+    <string name="label_can_takeover">Cambiar a: Estoy disponible</string>
+    <string name="label_cant_takeover">Cambiar a: No estoy disponible</string>
+    <!-- Services labels -->
+    <string name="label_ask_takeover">Pedir relevo</string>
+    <string name="search_time_detail">Danos un estimado de tiempo *</string>
+    <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
+    <string name="prompt_time_detail">tiempo estimado</string>
+    <string name="prompt_takeover_detail">indicación, cerca a ...</string>
+    <!-- Alert labels -->
+    <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
+    <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
+    <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
+    <string name="label_need_takeover">¡Necesito un relevo!</string>
+    <!-- Activity Errors -->
+    <string name="error_blank_time">ingresa tu estimado de tiempo</string>
+    <string name="error_blank_TO_detail">ingrese el detalle sobre el destino</string>
+
+</resources>

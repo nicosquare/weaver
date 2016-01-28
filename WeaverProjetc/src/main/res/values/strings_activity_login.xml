@@ -1,6 +1,8 @@
 <resources>
 
+    <!-- Activity info -->
     <string name="title_activity_login">Acceder</string>
+    <string name="title_activity_signup">Registrarse</string>
     <!-- User info -->
     <string name="prompt_fullname">Nombre completo *</string>
     <string name="prompt_document">Documento *</string>
@@ -10,8 +12,15 @@
     <string name="prompt_username">Usuario</string>
     <string name="prompt_password">Contraseña *</string>
     <string name="prompt_password_again">Confirmar contraseña *</string>
+    <!-- Login info -->
+    <string name="driver_info">Información del conductor *</string>
+    <string name="veh_info">Información del vehiculo *</string>
+    <string name="veh_brand">Marca *</string>
+    <string name="veh_line">Línea *</string>
+    <string name="veh_model">Modelo *</string>
+    <string name="veh_capacity">Capacidad *</string>
+    <string name="terms">Acepto terminos y condiciones</string>
     <!-- Errors -->
-    <string name="error_intro">"Por favor "</string>
     <string name="error_blank_fullname">ingrese un usuario</string>
     <string name="error_blank_document">ingrese un usuario</string>
     <string name="error_blank_email">ingrese un correo electrónico</string>
@@ -24,15 +33,9 @@
     <string name="error_blank_capacity">ingrese la capacidad</string>
     <string name="error_blank_terms">acepte los terminos y condiciones</string>
     <string name="error_blank_detail">ingrese el detalle sobre el destino</string>
-    <string name="error_join">", y "</string>
-    <string name="error_end">.</string>
     <string name="error_wrong_email">El correo ingresado no esta registrado</string>
     <string name="error_wrong_loginel">No existe el correo, documento o celular ingresado</string>
     <string name="error_wrong_login">Por favor revise, hay un error en la información ingresada</string>
     <string name="error_wrong_petition">No pudo registrarse la solicitud, intente de nuevo por favor</string>
-    <!-- Dialogs -->
-    <string name="progress_login">Accediendo&#8230;</string>
-    <string name="progress_signup">Registrando&#8230;</string>
-    <string name="progress_requesting">Solicitando&#8230;</string>
 
 </resources>

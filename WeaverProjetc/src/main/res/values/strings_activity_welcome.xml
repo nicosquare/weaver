@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <!-- Activity info -->
+    <string name="title_activity_welcome">Bienvenido a Weaver</string>
+    <!-- Miscenlaneous -->
+    <string name="version">v.1.01</string>
+    <string name="slogan">Relevos a un click de distancia</string>
+    <!-- Section labels -->
+    <string name="login">Acceder</string>
+    <string name="signup">Registrate</string>
+
+</resources>

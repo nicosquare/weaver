@@ -9,33 +9,92 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".NeedTakeoverActivity">
 
-    <TextView
+    <!-- Login form -->
+
+
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/weaver_nombre"
+        android:paddingLeft="180dp"
+        android:paddingRight="10dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageTime"
+        android:src="@drawable/clock"
+        android:layout_alignTop="@+id/textTimeStimate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textTimeStimate"
+        android:text="@string/search_time_detail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/search_takeover_detail"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="59dp" />
+
+    <EditText
+        android:id="@+id/timeStimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTimeStimate"
+        android:layout_marginTop="10dp"
+        android:hint="@string/prompt_time_detail">
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageVan"
+        android:src="@drawable/van_stucked"
+        android:layout_alignTop="@+id/textNeedTakeover"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:id="@+id/textNeedTakeover"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp" />
+        android:text="@string/search_takeover_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="209dp" />
 
     <EditText
         android:id="@+id/takeoverDetail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textNeedTakeover"
-        android:layout_marginTop="30dp" >
-        <requestFocus />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        android:layout_marginTop="10dp"
+        android:hint="@string/prompt_takeover_detail">
     </EditText>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageTakeover"
+        android:src="@drawable/van_return"
+        android:layout_alignTop="@+id/askTakeover"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/label_ask_takeover"
         android:id="@+id/askTakeover"
-        android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/takeoverDetail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="150px"
+        android:layout_marginBottom="20dp" />
 
 </RelativeLayout>

@@ -14,7 +14,7 @@ public class GMailSenderAsync extends AsyncTask<String, Void, Void>
         GMailSender emailSender = new GMailSender("nicolas@weavercol.com","Jackhammer9011");
         try
         {
-            emailSender.sendMail("Peticion creada.","Usuario: "+params[0]+" - Celular: "+params[1]+" - Detalle: "+params[2],"contacto@weavercol.com",params[3]);
+            emailSender.sendMail("Peticion: "+params[0], params[1],"contacto@weavercol.com", params[2]);
         }
         catch (Exception e1)
         {
