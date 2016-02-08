@@ -8,8 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.util.Log;
+import android.support.design.widget.FloatingActionButton;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -23,7 +22,6 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
-import com.parse.RequestPasswordResetCallback;
 
 /**
  * Activity which displays a login screen to the user, offering registration as well.
@@ -81,6 +79,23 @@ public class LoginActivity extends Activity
                 builder.setMessage("¿Olvidaste tu contraseña?")
                         .setPositiveButton("Si", dialogClickListener)
                         .setNegativeButton("No", dialogClickListener).show();
+            }
+        });
+
+        // Mail button click handler
+        FloatingActionButton mailButton = (FloatingActionButton) findViewById(R.id.fab);
+        mailButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                /* Create the Intent */
+                final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+
+                /* Fill it with Data */
+                emailIntent.setType("plain/text");
+                emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"contacto@weavercol.com"});
+
+                /* Send it off to the Activity-Chooser */
+                startActivity(Intent.createChooser(emailIntent, "Send mail..."));
             }
         });
 

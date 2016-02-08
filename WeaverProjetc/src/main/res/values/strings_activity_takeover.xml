@@ -11,7 +11,7 @@
     <string name="label_cant_takeover">Cambiar a: No estoy disponible</string>
     <!-- Services labels -->
     <string name="label_ask_takeover">Pedir relevo</string>
-    <string name="search_time_detail">Danos un estimado de tiempo *</string>
+    <string name="search_time_detail">Danos un estimado de tiempo para el recorrido*</string>
     <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
     <string name="prompt_time_detail">tiempo estimado</string>
     <string name="prompt_takeover_detail">indicación, cerca a ...</string>

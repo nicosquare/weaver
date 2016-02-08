@@ -9,9 +9,6 @@
 package com.parse.weaver;
 
 import android.app.Application;
-import android.content.Context;
-import android.location.LocationManager;
-import android.os.Handler;
 
 import com.parse.Parse;
 import com.parse.ParseACL;

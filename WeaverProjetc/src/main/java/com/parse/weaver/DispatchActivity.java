@@ -1,14 +1,10 @@
 package com.parse.weaver;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.Settings;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.parse.LocationCallback;
 import com.parse.ParseException;
@@ -35,18 +31,8 @@ public class DispatchActivity extends Activity
     {
         super.onCreate(savedInstanceState);
 
-        // Check if GPS is Enabled
-        LocationManager manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
-
-        if(!manager.isProviderEnabled(LocationManager.GPS_PROVIDER))
-        {
-            // Show the error message
-            Toast.makeText(DispatchActivity.this, getString(R.string.error_no_gps), Toast.LENGTH_LONG).show();
-            startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
-        }
-
         // Check if there is current user info
-        if (ParseUser.getCurrentUser().getUsername() != null)
+        if (ParseUser.getCurrentUser().getUsername() != null && ParseUser.getCurrentUser().getSessionToken() != null)
         {
             // Fire Handler for location
             locationHandler.postDelayed(updateLocationThread, 0);

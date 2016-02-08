@@ -24,7 +24,6 @@ import com.parse.SaveCallback;
 import com.utilities.GMailSenderAsync;
 
 import java.text.DateFormat;
-import java.util.Date;
 import java.util.TimeZone;
 
 public class NeedTakeoverActivity extends AppCompatActivity

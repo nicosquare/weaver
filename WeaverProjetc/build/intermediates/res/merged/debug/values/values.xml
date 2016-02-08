@@ -382,7 +382,7 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
-    <string name="search_time_detail">Danos un estimado de tiempo *</string>
+    <string name="search_time_detail">Danos un estimado de tiempo para el recorrido*</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
     <string name="signup">Registrate</string>
