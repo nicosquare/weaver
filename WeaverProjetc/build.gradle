@@ -8,8 +8,8 @@ android {
         applicationId "com.parse.weaver"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 5
-        versionName "1.04"
+        versionCode 8
+        versionName "1.07"
     }
     buildTypes {
         release {

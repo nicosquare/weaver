@@ -23,7 +23,64 @@
 
     <ImageView
         android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageOrigin"
+        android:src="@drawable/van_stucked"
+        android:layout_alignTop="@+id/textOrigin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textOrigin"
+        android:text="@string/search_origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="35dp" />
+
+    <EditText
+        android:id="@+id/originDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textOrigin"
+        android:layout_marginTop="10dp"
+        android:hint="@string/prompt_origin">
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageGoal"
+        android:src="@drawable/map"
+        android:layout_alignTop="@+id/textGoal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textGoal"
+        android:text="@string/search_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="135dp" />
+
+    <EditText
+        android:id="@+id/goalDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textGoal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/prompt_takeover_detail">
+    </EditText>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:id="@+id/imageTime"
         android:src="@drawable/clock"
         android:layout_alignTop="@+id/textTimeStimate"
@@ -37,8 +94,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_centerHorizontal="false"
-        android:layout_marginLeft="150px"
-        android:layout_marginTop="59dp" />
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="235dp" />
 
     <EditText
         android:id="@+id/timeStimate"
@@ -51,10 +108,10 @@
     </EditText>
 
     <ImageView
-        android:layout_width="68dp"
-        android:layout_height="50dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:id="@+id/imageVan"
-        android:src="@drawable/van_stucked"
+        android:src="@drawable/plus"
         android:layout_alignTop="@+id/textNeedTakeover"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -66,15 +123,15 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_centerHorizontal="false"
-        android:layout_marginLeft="150px"
-        android:layout_marginTop="209dp" />
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="335dp" />
 
     <EditText
         android:id="@+id/takeoverDetail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textNeedTakeover"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:hint="@string/prompt_takeover_detail">
     </EditText>
 
@@ -95,6 +152,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="false"
         android:layout_marginLeft="150px"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="0dp" />
 
 </RelativeLayout>

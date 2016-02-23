@@ -29,8 +29,11 @@ import java.util.TimeZone;
 public class NeedTakeoverActivity extends AppCompatActivity
 {
 
+    EditText takeoverOrigin;
+    EditText takeoverGoal;
     EditText takeoverTime;
     EditText takeoverDetail;
+
     DateFormat df = DateFormat.getTimeInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -42,6 +45,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
         df.setTimeZone(TimeZone.getTimeZone("GMT-5"));
 
         // Set up the login form.
+        takeoverOrigin = (EditText) findViewById(R.id.originDetail);
+        takeoverGoal = (EditText) findViewById(R.id.goalDetail);
         takeoverTime = (EditText) findViewById(R.id.timeStimate);
         takeoverDetail = (EditText) findViewById(R.id.takeoverDetail);
 
@@ -54,6 +59,32 @@ public class NeedTakeoverActivity extends AppCompatActivity
                 putTakeoverRequest();
             }
 
+        });
+
+        // Set up the submit button click handler
+        ImageView imageOrigin = (ImageView) findViewById(R.id.imageOrigin);
+        imageOrigin.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View view)
+            {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
+                takeoverOrigin.requestFocus();
+                imm.showSoftInput(takeoverOrigin, InputMethodManager.SHOW_IMPLICIT);
+            }
+        });
+
+        // Set up the submit button click handler
+        ImageView imageGoal = (ImageView) findViewById(R.id.imageGoal);
+        imageGoal.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View view)
+            {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
+                takeoverGoal.requestFocus();
+                imm.showSoftInput(takeoverGoal, InputMethodManager.SHOW_IMPLICIT);
+            }
         });
 
         // Set up the submit button click handler
@@ -111,6 +142,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
     private void putTakeoverRequest()
     {
+        final String origin = takeoverOrigin.getText().toString();
+        final String goal = takeoverGoal.getText().toString();
         final String time = takeoverTime.getText().toString();
         final String detail = takeoverDetail.getText().toString();
 
@@ -118,15 +151,28 @@ public class NeedTakeoverActivity extends AppCompatActivity
         boolean validationError = false;
         StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
 
+        if (origin.length() == 0)
+        {
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_origin));
+        }
+
+        if (goal.length() == 0)
+        {
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_goal));
+        }
+
+        /*
+        *   Detail is not mandatory
+        *
+
         if (time.length() == 0)
         {
             validationError = true;
             validationErrorMessage.append(getString(R.string.error_blank_time));
         }
 
-        /*
-        *   Detail is not mandatory
-        *
         if (detail.length() == 0)
         {
             validationError = true;
@@ -155,7 +201,9 @@ public class NeedTakeoverActivity extends AppCompatActivity
         ParseGeoPoint currentLocation = new ParseGeoPoint();
 
         final ParseObject takeoverRequestObject = new ParseObject("TakeoverRequests");
-        takeoverRequestObject.put("username", ParseUser.getCurrentUser().getUsername());
+        takeoverRequestObject.put("username", ParseUser.getCurrentUser());
+        takeoverRequestObject.put("origin", origin);
+        takeoverRequestObject.put("goal", goal);
         takeoverRequestObject.put("time_estimate", time);
         takeoverRequestObject.put("description", detail);
 
@@ -168,6 +216,7 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
                     takeoverRequestObject.put("loc_lat", String.valueOf(geoPoint.getLatitude()));
                     takeoverRequestObject.put("loc_lng", String.valueOf(geoPoint.getLongitude()));
+
                     takeoverRequestObject.saveInBackground(new SaveCallback() {
                         @Override
                         public void done(ParseException e) {

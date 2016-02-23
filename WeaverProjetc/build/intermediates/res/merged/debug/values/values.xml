@@ -305,8 +305,18 @@
     <string name="error_blank_document">ingrese un usuario</string>
     <string name="error_blank_email">ingrese un correo electrónico</string>
     <string name="error_blank_fullname">ingrese un usuario</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="error_blank_goal">ingresa tu destino</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="error_blank_line">ingrese la linea</string>
     <string name="error_blank_model">ingrese el modelo</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="error_blank_origin">ingresa tu origen</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="error_blank_password">ingrese una contraseña</string>
     <string name="error_blank_terms">acepte los terminos y condiciones</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
@@ -367,12 +377,19 @@
     <string name="prompt_email">Correo electrónico</string>
     <string name="prompt_email_cellphone_document">Correo, documento o celular</string>
     <string name="prompt_fullname">Nombre completo *</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
+    <eat-comment/>
+    <string name="prompt_goal">¿Donde finaliza el recorrido?</string>
+    <string name="prompt_origin">¿Donde comienza el recorrido?</string>
+    <string name="prompt_passengers">Cantidad de niños</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="prompt_password">Contraseña *</string>
     <string name="prompt_password_again">Confirmar contraseña *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="prompt_takeover_detail">indicación, cerca a ...</string>
-    <string name="prompt_time_detail">tiempo estimado</string>
+    <string name="prompt_takeover_detail">¿Otra indicación?</string>
+    <string name="prompt_time_detail">Tiempo aproximado</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="prompt_username">Usuario</string>
@@ -381,8 +398,11 @@
     <string name="recover">Recuperar</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="search_takeover_detail">¿Tienes alguna indicación para llegar?</string>
-    <string name="search_time_detail">Danos un estimado de tiempo para el recorrido*</string>
+    <string name="search_goal">Destino:</string>
+    <string name="search_origin">Origen:</string>
+    <string name="search_passengers">Pasajeros:</string>
+    <string name="search_takeover_detail">Observaciones, número de niños</string>
+    <string name="search_time_detail">Duración del recorrido*</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
     <string name="signup">Registrate</string>
@@ -419,7 +439,7 @@
     <string name="veh_model">Modelo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
-    <string name="version">v.1.04</string>
+    <string name="version">v.1.05</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

@@ -5,12 +5,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.widget.Toast;
 
+import com.parse.GetCallback;
 import com.parse.LocationCallback;
+import com.parse.LogInCallback;
+import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Activity which starts an intent for either the logged in (MainActivity) or logged out
