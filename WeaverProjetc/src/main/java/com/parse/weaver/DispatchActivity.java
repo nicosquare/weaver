@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.facebook.appevents.AppEventsLogger;
 import com.parse.GetCallback;
 import com.parse.LocationCallback;
 import com.parse.LogInCallback;
@@ -104,5 +105,22 @@ public class DispatchActivity extends Activity
             locationHandler.postDelayed(this, 1000*60*2);
         }
     };
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+        // Logs 'install' and 'app activate' App Events.
+        AppEventsLogger.activateApp(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Logs 'app deactivate' App Event.
+        AppEventsLogger.deactivateApp(this);
+    }
 
 }

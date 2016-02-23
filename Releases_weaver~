@@ -1,0 +1,16 @@
+Release notes
+1.04
+- Fix latitude and longitude error
+- Usability improves
+- Saved position fot Takeover
+- Saved Real Time
+- Forgot my password feature
+- Fix for empty email
+1.05
+- Fix for GPS message
+- Correction of session management
+- Email "contact us" feature available
+1.06
+- Improved detail in Takeover's view
+1.07
+- Fixed error on Login

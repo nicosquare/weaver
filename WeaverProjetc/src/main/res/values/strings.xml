@@ -28,5 +28,7 @@
     <string name="error_end">.</string>
     <string name="error_no_gps">Tu GPS esta desactivado, es necesario activarlo</string>
     <string name="title_activity_password_forgotten">PasswordForgottenActivity</string>
+    <!-- SDK's Strings -->
+    <string name="facebook_app_id">1676274385994802</string>
 
 </resources>

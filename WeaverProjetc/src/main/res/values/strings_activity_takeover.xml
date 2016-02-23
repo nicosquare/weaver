@@ -15,12 +15,12 @@
     <string name="search_goal">Destino:</string>
     <string name="search_passengers">Pasajeros:</string>
     <string name="search_time_detail">Duración del recorrido*</string>
-    <string name="search_takeover_detail">Observaciones, número de niños</string>
+    <string name="search_takeover_detail">¿Otra indicación?</string>
     <string name="prompt_origin">¿Donde comienza el recorrido?</string>
     <string name="prompt_goal">¿Donde finaliza el recorrido?</string>
     <string name="prompt_passengers">Cantidad de niños</string>
     <string name="prompt_time_detail">Tiempo aproximado</string>
-    <string name="prompt_takeover_detail">¿Otra indicación?</string>
+    <string name="prompt_takeover_detail">Observaciones, número de niños</string>
     <!-- Alert labels -->
     <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
     <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
