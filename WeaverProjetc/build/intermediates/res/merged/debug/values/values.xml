@@ -372,7 +372,10 @@
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
-    <string name="driver_info">Información del conductor *</string>
+    <string name="driver_info">Información del conductor</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="edit">Editar datos</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="error_blank_TO_detail">ingrese el detalle sobre el destino</string>
@@ -484,6 +487,9 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
     <string name="recover">Recuperar</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="save">Guardar</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="search_goal">Destino:</string>
@@ -522,7 +528,7 @@
     <eat-comment/>
     <string name="veh_brand">Marca *</string>
     <string name="veh_capacity">Capacidad *</string>
-    <string name="veh_info">Información del vehiculo *</string>
+    <string name="veh_info">Información del vehiculo</string>
     <string name="veh_line">Línea *</string>
     <string name="veh_model">Modelo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
