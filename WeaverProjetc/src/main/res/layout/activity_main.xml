@@ -48,14 +48,13 @@
         android:layout_marginTop="50dp"
         android:background="@color/error_color"/>
 
-    <ToggleButton
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/canTakeover"
         android:layout_below="@+id/needTakeover"
         android:layout_marginTop="30dp"
-        android:textOn="@string/label_cant_takeover"
-        android:textOff="@string/label_can_takeover"/>
+        android:text="@string/label_set_available"/>
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string-array name="day_hour_array">
+        <item>Selecciona una hora</item>
+        <item>1:00 AM</item>
+        <item>2:00 AM</item>
+        <item>3:00 AM</item>
+        <item>4:00 AM</item>
+        <item>5:00 AM</item>
+        <item>6:00 AM</item>
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 M</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+        <item>6:00 PM</item>
+        <item>7:00 PM</item>
+        <item>8:00 PM</item>
+        <item>9:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+        <item>12:00 PM</item>
+    </string-array>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -351,6 +408,16 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string name="button_add_label">+</string>
+    <string name="checkbox_friday_text">V</string>
+    <string name="checkbox_monday_text">L</string>
+    <string name="checkbox_saturday_text">S</string>
+    <string name="checkbox_sunday_text">D</string>
+    <string name="checkbox_thursday_text">J</string>
+    <string name="checkbox_tuesday_text">M</string>
+    <string name="checkbox_wednesday_text">Mc</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/values/values.xml -->
     <eat-comment/>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
@@ -439,6 +506,7 @@
     <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
     <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
     <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
+    <string name="label_set_available">Ajusta tus horarios libres</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
     <string name="login">Acceder</string>
@@ -457,10 +525,30 @@
     <string name="pass_forgotten">Olvidé mi contraseña</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
     <string name="progress_login">Accediendo…</string>
     <string name="progress_processing">Procesando…</string>
     <string name="progress_requesting">Solicitando…</string>
     <string name="progress_signup">Registrando…</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string name="prompt_activity_from">Selecciona la hora inicial:</string>
+    <string name="prompt_activity_to">Selecciona la hora final:</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="prompt_cellphone">Celular *</string>
@@ -504,9 +592,21 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string name="stored_freetime">Franjas libres ingresadas</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="terms">Acepto terminos y condiciones</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_free_time">Horarios libres</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string name="title_activity_freetime">Agrega las franjas en que estas disponible.</string>
+    <string name="title_activity_from">Desde :</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="title_activity_login">Acceder</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
@@ -518,6 +618,9 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="title_activity_takeover">Relevos</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
+    <eat-comment/>
+    <string name="title_activity_to">Hasta :</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
     <string name="title_activity_welcome">Bienvenido a Weaver</string>

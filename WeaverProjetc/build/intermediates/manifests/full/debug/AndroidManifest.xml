@@ -9,8 +9,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.parse.weaver"
-    android:versionCode="9"
-    android:versionName="1.08" >
+    android:versionCode="10"
+    android:versionName="1.09" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -98,6 +98,10 @@
         <activity
             android:name="com.parse.weaver.PasswordForgottenActivity"
             android:label="@string/title_activity_password_forgotten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parse.weaver.FreeTimeActivity"
+            android:label="@string/title_activity_free_time"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

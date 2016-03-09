@@ -200,14 +200,14 @@ public class NeedTakeoverActivity extends AppCompatActivity
         //Set marker here
         ParseGeoPoint currentLocation = new ParseGeoPoint();
 
-        final ParseObject takeoverRequestObject = new ParseObject("TakeoverRequests");
+        final ParseObject takeoverRequestObject = new ParseObject("TORequests");
         takeoverRequestObject.put("username", ParseUser.getCurrentUser());
         takeoverRequestObject.put("origin", origin);
-        takeoverRequestObject.put("goal", goal);
-        takeoverRequestObject.put("time_estimate", time);
-        takeoverRequestObject.put("description", detail);
+        takeoverRequestObject.put("destination", goal);
+        takeoverRequestObject.put("time_estimation", time);
+        takeoverRequestObject.put("comments", detail);
 
-        takeoverRequestObject.put("real_time", df.getCalendar().getTime());
+        takeoverRequestObject.put("request_date", df.getCalendar().getTime());
 
         currentLocation.getCurrentLocationInBackground(30000, new LocationCallback() {
             @Override
