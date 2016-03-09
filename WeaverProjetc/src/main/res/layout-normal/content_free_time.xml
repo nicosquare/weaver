@@ -25,21 +25,23 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title_activity_freetime"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textStyle="bold"
+        android:textColor="#9bd8ee"/>
 
     <TextView
         android:id="@+id/textFrom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title_activity_from"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="30dp"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
 
     <Spinner
         android:id="@+id/spinnerFrom"
@@ -53,18 +55,19 @@
         android:layout_toRightOf="@+id/textFrom"
         android:layout_toEndOf="@+id/textFrom"
         android:spinnerMode="dialog"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
 
     <TextView
         android:id="@+id/textTo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title_activity_to"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/spinnerFrom"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
 
     <Spinner
         android:id="@+id/spinnerTo"
@@ -78,7 +81,7 @@
         android:layout_toRightOf="@+id/textFrom"
         android:layout_toEndOf="@+id/textFrom"
         android:spinnerMode="dialog"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -87,7 +90,10 @@
         android:id="@+id/checkBoxL"
         android:layout_below="@+id/spinnerTo"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -96,7 +102,9 @@
         android:id="@+id/checkBoxM"
         android:layout_alignTop="@+id/checkBoxL"
         android:layout_toRightOf="@+id/checkBoxL"
-        android:layout_toEndOf="@+id/checkBoxL" />
+        android:layout_toEndOf="@+id/checkBoxL"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -105,7 +113,9 @@
         android:id="@+id/checkBoxMc"
         android:layout_alignTop="@+id/checkBoxM"
         android:layout_toRightOf="@+id/checkBoxM"
-        android:layout_toEndOf="@+id/checkBoxM" />
+        android:layout_toEndOf="@+id/checkBoxM"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -114,7 +124,9 @@
         android:id="@+id/checkBoxJ"
         android:layout_alignTop="@+id/checkBoxMc"
         android:layout_toRightOf="@+id/checkBoxMc"
-        android:layout_toEndOf="@+id/checkBoxMc" />
+        android:layout_toEndOf="@+id/checkBoxMc"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -123,7 +135,9 @@
         android:id="@+id/checkBoxV"
         android:layout_alignTop="@+id/checkBoxJ"
         android:layout_toRightOf="@+id/checkBoxJ"
-        android:layout_toEndOf="@+id/checkBoxJ" />
+        android:layout_toEndOf="@+id/checkBoxJ"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -132,7 +146,9 @@
         android:id="@+id/checkBoxS"
         android:layout_below="@+id/checkBoxL"
         android:layout_alignRight="@+id/checkBoxL"
-        android:layout_alignEnd="@+id/checkBoxL" />
+        android:layout_alignEnd="@+id/checkBoxL"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -141,7 +157,9 @@
         android:id="@+id/checkBoxD"
         android:layout_alignBottom="@+id/buttonAdd"
         android:layout_toLeftOf="@+id/checkBoxMc"
-        android:layout_toStartOf="@+id/checkBoxMc" />
+        android:layout_toStartOf="@+id/checkBoxMc"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
 
     <Button
         style="?android:attr/textAppearanceLarge"
@@ -157,10 +175,11 @@
         android:id="@+id/textHorarios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/stored_freetime"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textStyle="bold"
+        android:textColor="#9bd8ee"
         android:layout_below="@+id/checkBoxS"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -169,7 +188,8 @@
         android:id="@+id/listView_items"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textHorarios">
+        android:layout_below="@+id/textHorarios"
+        android:layout_marginTop="10dp">
     </ListView>
 
 </RelativeLayout>

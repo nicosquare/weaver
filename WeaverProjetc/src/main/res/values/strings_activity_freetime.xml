@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Activity info -->
-    <string name="title_activity_freetime">Agrega las franjas en que estas disponible.</string>
+    <string name="title_activity_freetime">¿A qué horas estas disponible?</string>
     <!-- Activity labels -->
     <string name="title_activity_from">Desde :</string>
     <string name="title_activity_to">Hasta :</string>

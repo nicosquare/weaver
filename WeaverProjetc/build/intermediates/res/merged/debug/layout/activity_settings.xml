@@ -17,16 +17,17 @@
         android:paddingLeft="180dp"
         android:paddingRight="10dp"/>
 
+                android:textColor="#9bd8ee"
     <ScrollView
         android:id="@+id/signup_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="25dp"
         android:layout_below="@+id/imageView"
         android:layout_above="@+id/edit_save_button">
 
         <LinearLayout
-            style="@style/LoginFormContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView

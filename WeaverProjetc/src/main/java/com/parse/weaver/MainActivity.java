@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity
 
     Button needTakeover = (Button) findViewById(R.id.needTakeover);
     final Button canTakeover = (Button) findViewById(R.id.canTakeover);
-    TextView state = (TextView) findViewById(R.id.textViewState);
+    //TextView state = (TextView) findViewById(R.id.textViewState);
 
+    /*
+     * Commented temporally
+     *
     if(ParseUser.getCurrentUser().get("available") == "true")
     {
         state.setTextColor(Color.rgb(51, 180, 102));
@@ -47,6 +50,7 @@ public class MainActivity extends AppCompatActivity
         state.setTextColor(Color.RED);
         state.setText(getString(R.string.label_not_available));
     }
+    */
 
     needTakeover.setOnClickListener(new View.OnClickListener()
     {

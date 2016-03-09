@@ -16,7 +16,7 @@
     <string name="action_settings">Configuraciones</string>
     <string name="action_return">Regresar</string>
     <string name="title_activity_settings">Configuraciones</string>
-    <string name="logout_full">Salir de Weaver</string>
+    <string name="logout_full">Cerrar sesión</string>
     <string name="edit">Editar datos</string>
     <string name="save">Guardar</string>
     <!-- Dialogs -->

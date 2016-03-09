@@ -10,7 +10,7 @@
     <!-- Activity info -->
     <string name="title_activity_welcome">Bienvenido a Weaver</string>
     <!-- Miscenlaneous -->
-    <string name="version">v.1.05</string>
+    <string name="version">v.1.1</string>
     <string name="slogan">Relevos a un click de distancia</string>
     <!-- Section labels -->
     <string name="login">Acceder</string>

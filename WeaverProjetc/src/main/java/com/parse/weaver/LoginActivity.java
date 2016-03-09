@@ -39,20 +39,23 @@ public class LoginActivity extends Activity
     {
         super.onCreate(savedInstanceState);
 
+        loginPrefs = this.getSharedPreferences("loginPreferences", Context.MODE_PRIVATE);
         setContentView(R.layout.activity_login);
 
-        loginPrefs = this.getSharedPreferences("loginPreferences", Context.MODE_PRIVATE);
+        final FloatingActionButton mailButton = (FloatingActionButton) findViewById(R.id.fab);
+        Button actionButton = (Button) findViewById(R.id.action_button);
+        Button passResetButton = (Button) findViewById(R.id.forgotten_pass_button);
 
         // Set up the login form.
         loginElementEditText = (EditText) findViewById(R.id.login_element);
         passwordEditText = (EditText) findViewById(R.id.password);
+
         passwordEditText.setOnEditorActionListener(new TextView.OnEditorActionListener()
         {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event)
             {
-                if (actionId == R.id.edittext_action_login ||
-                        actionId == EditorInfo.IME_ACTION_UNSPECIFIED)
+                if (actionId == R.id.edittext_action_login || actionId == EditorInfo.IME_ACTION_UNSPECIFIED)
                 {
                     login();
                     return true;
@@ -62,7 +65,6 @@ public class LoginActivity extends Activity
         });
 
         // Set up the submit button click handler
-        Button actionButton = (Button) findViewById(R.id.action_button);
         actionButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 login();
@@ -70,7 +72,6 @@ public class LoginActivity extends Activity
         });
 
         // Set up the submit button click handler
-        Button passResetButton = (Button) findViewById(R.id.forgotten_pass_button);
         passResetButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View view)
@@ -83,7 +84,6 @@ public class LoginActivity extends Activity
         });
 
         // Mail button click handler
-        FloatingActionButton mailButton = (FloatingActionButton) findViewById(R.id.fab);
         mailButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 

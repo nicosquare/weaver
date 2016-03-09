@@ -439,7 +439,7 @@
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
-    <string name="driver_info">Información del conductor</string>
+    <string name="driver_info">Información del usuario</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="edit">Editar datos</string>
@@ -512,7 +512,7 @@
     <string name="login">Acceder</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="logout_full">Salir de Weaver</string>
+    <string name="logout_full">Cerrar sesión</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/values/values.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">Send</string>
@@ -603,7 +603,7 @@
     <string name="title_activity_free_time">Horarios libres</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
     <eat-comment/>
-    <string name="title_activity_freetime">Agrega las franjas en que estas disponible.</string>
+    <string name="title_activity_freetime">¿A qué horas estas disponible?</string>
     <string name="title_activity_from">Desde :</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
@@ -636,7 +636,7 @@
     <string name="veh_model">Modelo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
-    <string name="version">v.1.05</string>
+    <string name="version">v.1.1</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

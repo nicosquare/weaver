@@ -13,7 +13,7 @@
     <string name="prompt_password">Contraseña *</string>
     <string name="prompt_password_again">Confirmar contraseña *</string>
     <!-- Login info -->
-    <string name="driver_info">Información del conductor</string>
+    <string name="driver_info">Información del usuario</string>
     <string name="veh_info">Información del vehiculo</string>
     <string name="veh_brand">Marca *</string>
     <string name="veh_line">Línea *</string>

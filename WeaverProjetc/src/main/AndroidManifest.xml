@@ -8,8 +8,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.parse.weaver"
-    android:versionCode="10"
-    android:versionName="1.09">
+    android:versionCode="11"
+    android:versionName="1.1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -60,11 +60,24 @@
         <activity
             android:name=".SignupActivity"
             android:label="@string/title_activity_signup" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".WelcomeActivity"
             android:label="@string/title_activity_welcome" />
+        <activity android:name=".NeedTakeoverActivity" />
+        <activity
+            android:name=".PasswordForgottenActivity"
+            android:label="@string/title_activity_password_forgotten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FreeTimeActivity"
+            android:label="@string/title_activity_free_time"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <service android:name="com.parse.PushService" />
 
@@ -89,15 +102,6 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".NeedTakeoverActivity" />
-        <activity
-            android:name=".PasswordForgottenActivity"
-            android:label="@string/title_activity_password_forgotten"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".FreeTimeActivity"
-            android:label="@string/title_activity_free_time"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

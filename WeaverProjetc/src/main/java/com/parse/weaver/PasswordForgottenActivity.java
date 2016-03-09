@@ -141,7 +141,7 @@ public class PasswordForgottenActivity extends AppCompatActivity
                     String username = object.get("username").toString();
                     GMailSenderAsync asyncMailSender = new GMailSenderAsync();
 
-                    asyncMailSender.execute(username, email, "contacto.weaver@gmail.com");
+                    asyncMailSender.execute("Restitución de contraseña: "+username, email, "contacto.weaver@gmail.com");
 
                     // Notification
                     Toast.makeText(PasswordForgottenActivity.this, getString(R.string.alert_pass_recovery), Toast.LENGTH_LONG).show();
