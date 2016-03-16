@@ -20,6 +20,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.parse.weaver.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
 
     <!--
       IMPORTANT: Change "com.parse.starter.permission.C2D_MESSAGE" in the lines below
@@ -59,13 +60,14 @@
             android:label="@string/app_name" />
         <activity
             android:name=".SignupActivity"
-            android:label="@string/title_activity_signup" />
+            android:label="@string/title_activity_signup"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".SettingsActivity"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".WelcomeActivity"
             android:label="@string/title_activity_welcome" />
@@ -77,7 +79,14 @@
         <activity
             android:name=".FreeTimeActivity"
             android:label="@string/title_activity_free_time"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TermsActivity"
+            android:label="@string/title_activity_terms"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
 
         <service android:name="com.parse.PushService" />
 
@@ -101,6 +110,7 @@
                 <category android:name="com.parse.weaver" />
             </intent-filter>
         </receiver>
+
 
     </application>
 

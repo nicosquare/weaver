@@ -8,8 +8,10 @@
     <string name="prompt_activity_from">Selecciona la hora inicial:</string>
     <string name="prompt_activity_to">Selecciona la hora final:</string>
     <string name="stored_freetime">Franjas libres ingresadas</string>
+    <string name="title_activity_where">Donde :</string>
+    <string name="title_activity_where_hint">¿Por qué zona?</string>
     <!-- Button labels -->
-    <string name="button_add_label">+</string>
+    <string name="button_add_label">Guardar</string>
     <string name="checkbox_monday_text">L</string>
     <string name="checkbox_tuesday_text">M</string>
     <string name="checkbox_wednesday_text">Mc</string>
@@ -20,6 +22,10 @@
     <!-- Services labels -->
     <!-- Alert labels -->
     <!-- Activity Errors -->
+    <string name="error_blank_from_spinner">seleccione un horario inicial</string>
+    <string name="error_blank_to_spinner">seleccione un horario final</string>
+    <string name="error_blank_where">ingrese un lugar</string>
+    <string name="error_blank_days">seleccione al menos un día</string>
     <!-- Spinners -->
     <string-array name="day_hour_array">
         <item>Selecciona una hora</item>

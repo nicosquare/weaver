@@ -1,17 +1,13 @@
 package com.parse.weaver;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -43,7 +39,7 @@ public class FreeTimeActivity extends AppCompatActivity {
     private ArrayList<Integer> to;
     private ArrayList<String>  days;
     private BaseAdapter freeSpotsAdapter;
-
+    private EditText whereText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -61,6 +57,7 @@ public class FreeTimeActivity extends AppCompatActivity {
         cbFriday = (CheckBox) findViewById(R.id.checkBoxV);
         cbSaturday = (CheckBox) findViewById(R.id.checkBoxS);
         cbSunday = (CheckBox) findViewById(R.id.checkBoxD);
+        whereText = (EditText) findViewById(R.id.whereText);
         freeTimeList = (ListView) findViewById(R.id.listView_items);
 
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
@@ -71,15 +68,6 @@ public class FreeTimeActivity extends AppCompatActivity {
         to.clear();
         days = new ArrayList<String>();
         days.clear();
-
-        buttonAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                putFreeTime();
-
-            }
-        });
 
         ParseQuery query = new ParseQuery("FreeTime");
 
@@ -96,6 +84,9 @@ public class FreeTimeActivity extends AppCompatActivity {
                         to.add(index, freeTimeObject.getNumber("to").intValue());
                         days.add(index, freeTimeObject.getString("days"));
                     }
+
+                    buttonAdd.setText("Agregar");
+
                 } else {
                     Log.d("E. FreeTime", "Error: " + e.getMessage());
                 }
@@ -104,21 +95,49 @@ public class FreeTimeActivity extends AppCompatActivity {
 
         freeSpotsAdapter = new freeTimeAdapter(this, from, to, days);
         freeTimeList.setAdapter(freeSpotsAdapter);
+        freeTimeList.deferNotifyDataSetChanged();
 
-        runOnUiThread(new Runnable()
-        {
+        runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 freeSpotsAdapter.notifyDataSetChanged();
             }
         });
 
+        buttonAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                putFreeTime();
+
+            }
+        });
+
+    }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        freeSpotsAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        freeSpotsAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        freeSpotsAdapter.notifyDataSetChanged();
     }
 
     private void putFreeTime()
     {
         int fromTime = fromSpinner.getSelectedItemPosition();
         int toTime = toSpinner.getSelectedItemPosition();
+        String where = whereText.getText().toString();
         String days = "";
 
         if(cbMonday.isChecked()) days += "L,";
@@ -129,6 +148,56 @@ public class FreeTimeActivity extends AppCompatActivity {
         if(cbSaturday.isChecked()) days += "S,";
         if(cbSunday.isChecked()) days += "D,";
 
+        boolean validationError = false;
+        StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
+
+        if (fromTime == 0)
+        {
+            if (validationError)
+            {
+                validationErrorMessage.append(getString(R.string.error_join));
+            }
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_from_spinner));
+        }
+
+        if (toTime == 0)
+        {
+            if (validationError)
+            {
+                validationErrorMessage.append(getString(R.string.error_join));
+            }
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_to_spinner));
+        }
+
+        /*
+        if (where.length() == 0)
+        {
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_where));
+        }
+        */
+
+        if (days.length() == 0)
+        {
+            if (validationError)
+            {
+                validationErrorMessage.append(getString(R.string.error_join));
+            }
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_days));
+        }
+
+        validationErrorMessage.append(getString(R.string.error_end));
+
+        if (validationError) {
+            Toast.makeText(FreeTimeActivity.this, validationErrorMessage.toString(), Toast.LENGTH_LONG)
+                    .show();
+            return;
+        }
+
+
         days = days.substring(0,days.length()-1);
 
         ParseObject freeTimeObject = new ParseObject("FreeTime");
@@ -137,6 +206,7 @@ public class FreeTimeActivity extends AppCompatActivity {
         freeTimeObject.put("from",fromTime);
         freeTimeObject.put("to",toTime);
         freeTimeObject.put("days",days);
+        freeTimeObject.put("where",where);
 
         freeTimeObject.saveInBackground(new SaveCallback() {
             @Override
@@ -145,7 +215,9 @@ public class FreeTimeActivity extends AppCompatActivity {
                 if(e == null)
                 {
                     Toast.makeText(FreeTimeActivity.this, "Se guardo franja de disponibilidad", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(FreeTimeActivity.this, FreeTimeActivity.class));
+                    finish();
+                    startActivity(getIntent());
+                    buttonAdd.setText("Agregar");
                 }
                 else
                 {

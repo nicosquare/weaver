@@ -19,7 +19,8 @@
     <string name="veh_line">Línea *</string>
     <string name="veh_model">Modelo *</string>
     <string name="veh_capacity">Capacidad *</string>
-    <string name="terms">Acepto terminos y condiciones</string>
+    <string name="accept">Acepto</string>
+    <string name="terms">terminos y condiciones</string>
     <!-- Errors -->
     <string name="error_blank_fullname">ingrese un usuario</string>
     <string name="error_blank_document">ingrese un usuario</string>

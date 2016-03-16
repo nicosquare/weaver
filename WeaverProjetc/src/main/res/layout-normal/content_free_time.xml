@@ -12,21 +12,11 @@
     tools:context=".FreeTimeActivity"
     tools:showIn="@layout/activity_free_time">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:id="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/weaver_nombre"
-        android:paddingLeft="180dp"
-        android:paddingRight="10dp"/>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title_activity_freetime"
-        android:layout_marginTop="30dp"
         android:textSize="@dimen/abc_text_size_headline_material"
         android:textStyle="bold"
         android:textColor="#9bd8ee"/>
@@ -133,56 +123,78 @@
         android:layout_height="wrap_content"
         android:text="@string/checkbox_friday_text"
         android:id="@+id/checkBoxV"
-        android:layout_alignTop="@+id/checkBoxJ"
-        android:layout_toRightOf="@+id/checkBoxJ"
-        android:layout_toEndOf="@+id/checkBoxJ"
         android:button="@null"
-        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:layout_above="@+id/textHorarios"
+        android:layout_alignRight="@+id/checkBoxL"
+        android:layout_alignEnd="@+id/checkBoxL" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/checkbox_saturday_text"
         android:id="@+id/checkBoxS"
-        android:layout_below="@+id/checkBoxL"
-        android:layout_alignRight="@+id/checkBoxL"
-        android:layout_alignEnd="@+id/checkBoxL"
         android:button="@null"
-        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:layout_alignTop="@+id/checkBoxD"
+        android:layout_toLeftOf="@+id/checkBoxMc"
+        android:layout_toStartOf="@+id/checkBoxMc" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/checkbox_sunday_text"
         android:id="@+id/checkBoxD"
-        android:layout_alignBottom="@+id/buttonAdd"
-        android:layout_toLeftOf="@+id/checkBoxMc"
-        android:layout_toStartOf="@+id/checkBoxMc"
         android:button="@null"
-        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:layout_below="@+id/checkBoxMc"
+        android:layout_toLeftOf="@+id/checkBoxJ"
+        android:layout_toStartOf="@+id/checkBoxJ" />
 
     <Button
-        style="?android:attr/textAppearanceLarge"
-        android:layout_width="50dp"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_add_label"
         android:id="@+id/buttonAdd"
-        android:layout_alignBottom="@+id/checkBoxS"
+        android:layout_alignTop="@+id/checkBoxJ"
         android:layout_alignRight="@+id/spinnerTo"
         android:layout_alignEnd="@+id/spinnerTo" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/title_activity_where"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/checkBoxV"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/whereText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_activity_where_hint"
+        android:layout_below="@+id/checkBoxD"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignRight="@+id/buttonAdd"
+        android:layout_alignEnd="@+id/buttonAdd" />
+
+    <TextView
         android:id="@+id/textHorarios"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/stored_freetime"
-        android:layout_marginTop="10dp"
         android:textSize="@dimen/abc_text_size_headline_material"
         android:textStyle="bold"
         android:textColor="#9bd8ee"
         android:layout_below="@+id/checkBoxS"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/buttonAdd"
+        android:layout_alignEnd="@+id/buttonAdd"
+        android:layout_marginTop="36dp" />
 
     <ListView
         android:id="@+id/listView_items"
@@ -191,5 +203,7 @@
         android:layout_below="@+id/textHorarios"
         android:layout_marginTop="10dp">
     </ListView>
+
+
 
 </RelativeLayout>

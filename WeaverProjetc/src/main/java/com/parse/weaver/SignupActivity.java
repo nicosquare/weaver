@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -29,6 +30,7 @@ public class SignupActivity extends Activity
     private EditText capacityEditText;
 
     private CheckBox termsCheckBox;
+    private TextView termsTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -48,11 +50,20 @@ public class SignupActivity extends Activity
         capacityEditText = (EditText) findViewById(R.id.veh_capacity_edit_text);
 
         termsCheckBox = (CheckBox) findViewById(R.id.terms_check_box);
+        termsTextView = (TextView) findViewById(R.id.terms_text);
 
         Button mActionButton = (Button) findViewById(R.id.action_button);
         mActionButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 signup();
+            }
+        });
+
+        termsTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignupActivity.this, TermsActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -94,12 +105,20 @@ public class SignupActivity extends Activity
         {
             if (fullname.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_fullname));
             }
 
             if (document.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_document));
             }
@@ -117,6 +136,10 @@ public class SignupActivity extends Activity
 
             if (cellphone.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_cellphone));
             }
@@ -143,24 +166,40 @@ public class SignupActivity extends Activity
 
             if (brand.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_brand));
             }
 
             if (line.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_line));
             }
 
             if (model.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_model));
             }
 
             if (capacity.length() == 0)
             {
+                if (validationError)
+                {
+                    validationErrorMessage.append(getString(R.string.error_join));
+                }
                 validationError = true;
                 validationErrorMessage.append(getString(R.string.error_blank_capacity));
             }
@@ -186,7 +225,7 @@ public class SignupActivity extends Activity
         user.put("fullname",fullname);
         user.put("document", document);
 
-        if (email.length() == 0)
+        if (email.equals(""))
         {
             user.setEmail(document+"@weavercol.com");
         }

@@ -132,12 +132,31 @@
                 android:maxLines="1"
                 android:singleLine="true" />
 
-            <CheckBox
-                android:id="@+id/terms_check_box"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/terms"
-                android:textSize="@dimen/abc_text_size_medium_material"/>
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/terms_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accept"
+                    android:textSize="@dimen/abc_text_size_medium_material"/>
+
+                <TextView
+                    android:id="@+id/terms_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:textStyle="bold"
+                    android:textColor="#9bd8ee"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/terms_check_box"
+                    android:layout_toEndOf="@+id/terms_check_box"
+                    android:paddingLeft="5dp"/>
+
+            </RelativeLayout>
 
             <Button
                 android:id="@+id/action_button"
