@@ -1,9 +1,13 @@
 package com.parse.weaver;
 
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -210,12 +214,12 @@ public class SettingsActivity extends AppCompatActivity
         {
             public void onClick(View v)
             {
-                // Call the Parse log out method
-                ParseUser.logOut();
-                // Start and intent for the dispatch activity
-                Intent intent = new Intent(SettingsActivity.this, DispatchActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
+
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(SettingsActivity.this);
+                builder.setMessage("¿Realmente quieres cerrar sesión en Weaver?")
+                        .setPositiveButton("Si", dialogClickListener)
+                        .setNegativeButton("No", dialogClickListener).show();
             }
         });
     }
@@ -234,4 +238,29 @@ public class SettingsActivity extends AppCompatActivity
         this.finish();
         return true;
     }
+
+    DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener()
+    {
+        @Override
+        public void onClick(DialogInterface dialog, int which)
+        {
+            switch (which)
+            {
+                case DialogInterface.BUTTON_POSITIVE:
+                    // Show the error message
+                    // Call the Parse log out method
+                    ParseUser.logOut();
+                    // Start and intent for the dispatch activity
+                    Intent intent = new Intent(SettingsActivity.this, DispatchActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                    break;
+
+                case DialogInterface.BUTTON_NEGATIVE:
+                    // Starts an intent of the log in activity
+                    dialog.dismiss();
+                    break;
+            }
+        }
+    };
 }

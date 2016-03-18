@@ -79,14 +79,12 @@
         <activity
             android:name=".FreeTimeActivity"
             android:label="@string/title_activity_free_time"
-            android:windowSoftInputMode="adjustPan"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".TermsActivity"
             android:label="@string/title_activity_terms"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <service android:name="com.parse.PushService" />
 
@@ -111,7 +109,10 @@
             </intent-filter>
         </receiver>
 
-
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

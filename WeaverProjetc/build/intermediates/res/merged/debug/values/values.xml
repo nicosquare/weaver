@@ -638,8 +638,8 @@
     <string name="prompt_fullname">Nombre completo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="prompt_goal">¿Donde finaliza el recorrido?</string>
-    <string name="prompt_origin">¿Donde comienza el recorrido?</string>
+    <string name="prompt_goal">Direccion, barrio, otros.</string>
+    <string name="prompt_origin">Direccion, barrio, otros.</string>
     <string name="prompt_passengers">Cantidad de niños</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
@@ -647,7 +647,8 @@
     <string name="prompt_password_again">Confirmar contraseña *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
-    <string name="prompt_takeover_detail">Observaciones, número de niños</string>
+    <string name="prompt_takeover_detail"># pasajeros, otros.</string>
+    <string name="prompt_takeover_prices">Ver precios</string>
     <string name="prompt_time_detail">Tiempo aproximado</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
@@ -678,6 +679,7 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="terms">terminos y condiciones</string>
+    <string name="text_prices">Tabla de precios</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_free_time">Horarios libres</string>
@@ -685,6 +687,9 @@
     <eat-comment/>
     <string name="title_activity_freetime">¿A qué horas estas disponible?</string>
     <string name="title_activity_from">Desde :</string>
+    <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_info">Información general</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="title_activity_login">Acceder</string>
