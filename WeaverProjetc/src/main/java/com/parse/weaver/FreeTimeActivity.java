@@ -1,5 +1,7 @@
 package com.parse.weaver;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -18,6 +20,9 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.weaver.classes.SharedPreferenceFreeTime;
+import com.parse.weaver.classes.freeTimeAdapter;
+import com.parse.weaver.classes.freeTimeItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,19 +37,23 @@ public class FreeTimeActivity extends AppCompatActivity {
     private CheckBox cbThursday;
     private CheckBox cbFriday;
     private CheckBox cbSaturday;
+    private EditText whereText;
     private CheckBox cbSunday;
     private Button buttonAdd;
     private ListView freeTimeList;
-    private ArrayList<Integer> from;
-    private ArrayList<Integer> to;
-    private ArrayList<String>  days;
-    private BaseAdapter freeSpotsAdapter;
-    private EditText whereText;
+    private freeTimeAdapter freeSpotsAdapter;
+
+    private SharedPreferenceFreeTime freeTimePreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        // Preferences code
+        freeTimePreferences = new SharedPreferenceFreeTime();
+
+        // Graphic interaction code
         setContentView(R.layout.activity_free_time);
 
         fromSpinner = (Spinner) findViewById(R.id.spinnerFrom);
@@ -62,38 +71,55 @@ public class FreeTimeActivity extends AppCompatActivity {
 
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
 
-        from = new ArrayList<Integer>();
-        from.clear();
-        to = new ArrayList<Integer>();
-        to.clear();
-        days = new ArrayList<String>();
-        days.clear();
-
         ParseQuery query = new ParseQuery("FreeTime");
 
-        query.whereEqualTo("username", ParseUser.getCurrentUser());
-        query.findInBackground(new FindCallback<ParseObject>() {
+        ArrayList<freeTimeItem> freeTimeStored =  freeTimePreferences.getFreeTimeList(getApplicationContext());
 
-            public void done(List<ParseObject> objects, ParseException e) {
+        if(freeTimeStored == null)
+        {
 
-                int index = 0;
+            final ArrayList<freeTimeItem> freeTimeNotStored = new ArrayList<freeTimeItem>();
 
-                if (e == null) {
-                    for (ParseObject freeTimeObject : objects) {
-                        from.add(index, freeTimeObject.getNumber("from").intValue());
-                        to.add(index, freeTimeObject.getNumber("to").intValue());
-                        days.add(index, freeTimeObject.getString("days"));
+            query.whereEqualTo("username", ParseUser.getCurrentUser());
+            query.findInBackground(new FindCallback<ParseObject>() {
+
+                public void done(List<ParseObject> objects, ParseException e) {
+
+                    int index = 0;
+
+                    if (objects != null && objects.size() != 0) {
+                        for (ParseObject freeTimeObject : objects) {
+
+                            ParseUser user = ParseUser.getCurrentUser();
+                            int from = freeTimeObject.getNumber("from") == null ? 0 : freeTimeObject.getNumber("from").intValue();
+                            int from_min = freeTimeObject.getNumber("from_min") == null ? 0 : freeTimeObject.getNumber("from_min").intValue();
+                            int to = freeTimeObject.getNumber("to") == null ? 0 : freeTimeObject.getNumber("to").intValue();
+                            int to_min = freeTimeObject.getNumber("to_min") == null ? 0 : freeTimeObject.getNumber("to_min").intValue();
+                            String days = freeTimeObject.getString("days") == null ? "" : freeTimeObject.getString("days");
+                            String where = freeTimeObject.getString("where") == null ? "" : freeTimeObject.getString("where");
+
+                            freeTimeItem listItem = new freeTimeItem(from, from_min, to, to_min, days, where);
+                            freeTimeNotStored.add(index,listItem);
+                        }
+
+                        freeTimePreferences.saveFreeTime(getApplicationContext(),freeTimeNotStored);
+
+                    } else {
+                        Log.d("E. FreeTime", "No hay registros");
                     }
-
-                    buttonAdd.setText("Agregar");
-
-                } else {
-                    Log.d("E. FreeTime", "Error: " + e.getMessage());
                 }
-            }
-        });
+            });
 
-        freeSpotsAdapter = new freeTimeAdapter(this, from, to, days);
+            freeSpotsAdapter = new freeTimeAdapter(this, freeTimeNotStored);
+        }
+        else
+        {
+            freeSpotsAdapter = new freeTimeAdapter(this, freeTimeStored);
+        }
+
+        if(freeSpotsAdapter == null) Log.d("Error","null adapter");
+        else Log.d("Error", "null adapter todo guembis");
+
         freeTimeList.setAdapter(freeSpotsAdapter);
         freeTimeList.deferNotifyDataSetChanged();
 
@@ -135,9 +161,9 @@ public class FreeTimeActivity extends AppCompatActivity {
 
     private void putFreeTime()
     {
-        int fromTime = fromSpinner.getSelectedItemPosition();
-        int toTime = toSpinner.getSelectedItemPosition();
-        String where = whereText.getText().toString();
+        final int fromTime = fromSpinner.getSelectedItemPosition();
+        final int toTime = toSpinner.getSelectedItemPosition();
+        final String where = whereText.getText().toString();
         String days = "";
 
         if(cbMonday.isChecked()) days += "L,";
@@ -197,11 +223,12 @@ public class FreeTimeActivity extends AppCompatActivity {
             return;
         }
 
-
         days = days.substring(0,days.length()-1);
+        final String daysAux = days;
 
         ParseObject freeTimeObject = new ParseObject("FreeTime");
 
+         /*ALERTA: Modificar cuando se ponga DatePicker*/
         freeTimeObject.put("username", ParseUser.getCurrentUser());
         freeTimeObject.put("from",fromTime);
         freeTimeObject.put("to",toTime);
@@ -214,9 +241,15 @@ public class FreeTimeActivity extends AppCompatActivity {
 
                 if(e == null)
                 {
+                    ArrayList<freeTimeItem> freeTimeGap =  freeTimePreferences.getFreeTimeList(getApplicationContext());
+
+                    freeTimeGap.add(new freeTimeItem(fromTime, 0, toTime, 0, daysAux, where));
+                    freeTimePreferences.saveFreeTime(getApplicationContext(), freeTimeGap);
+
+                    freeSpotsAdapter = new freeTimeAdapter(FreeTimeActivity.this, freeTimeGap);
+                    freeTimeList.setAdapter(freeSpotsAdapter);
+
                     Toast.makeText(FreeTimeActivity.this, "Se guardo franja de disponibilidad", Toast.LENGTH_LONG).show();
-                    finish();
-                    startActivity(getIntent());
                     buttonAdd.setText("Agregar");
                 }
                 else
