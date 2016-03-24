@@ -1,12 +1,12 @@
 package com.parse.weaver;
 
-import android.content.Context;
-import android.content.SharedPreferences;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.BaseAdapter;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -127,6 +127,38 @@ public class FreeTimeActivity extends AppCompatActivity {
             @Override
             public void run() {
                 freeSpotsAdapter.notifyDataSetChanged();
+            }
+        });
+
+        freeTimeList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(FreeTimeActivity.this);
+
+                alertDialogBuilder
+                        .setTitle("¿Quieres borrar este registro?")
+                        .setCancelable(false)
+                        .setPositiveButton("si", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // Do something with parameter.
+                                removeFreetimeGap(position);
+                            }
+                        })
+                        .setNegativeButton("No",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        dialog.cancel();
+
+                                    }
+                                });
+
+                // create alert dialog
+                AlertDialog alertDialog = alertDialogBuilder.create();
+
+                // show it
+                alertDialog.show();
+
             }
         });
 
@@ -251,12 +283,75 @@ public class FreeTimeActivity extends AppCompatActivity {
 
                     Toast.makeText(FreeTimeActivity.this, "Se guardo franja de disponibilidad", Toast.LENGTH_LONG).show();
                     buttonAdd.setText("Agregar");
+
+                    finish();
+                    startActivity(getIntent());
                 }
                 else
                 {
                     Toast.makeText(FreeTimeActivity.this, "No se guardo franja de disponibilidad", Toast.LENGTH_LONG).show();
                 }
 
+            }
+        });
+
+    }
+
+    private void removeFreetimeGap(final int position)
+    {
+
+        final ArrayList<freeTimeItem> freeTimeGap = freeTimePreferences.getFreeTimeList(getApplicationContext());
+
+        final freeTimeItem selectedItem = freeTimeGap.get(0);
+
+        ParseQuery query = new ParseQuery("FreeTime");
+
+        query.whereEqualTo("username", ParseUser.getCurrentUser());
+        query.findInBackground(new FindCallback<ParseObject>() {
+
+            public void done(List<ParseObject> objects, ParseException e) {
+
+                int index = 0;
+
+                if (e == null) {
+
+                    for (ParseObject freeTimeObject : objects) {
+
+                        if (freeTimeObject.getInt("from") == selectedItem.getFrom()
+                                && freeTimeObject.getInt("to") == selectedItem.getTo()
+                                && freeTimeObject.getString("days").equals(selectedItem.getDays()))
+                        {
+
+                            try
+                            {
+
+                                freeTimeObject.delete();
+
+                                freeTimeGap.remove(position);
+                                freeTimePreferences.saveFreeTime(getApplicationContext(), freeTimeGap);
+                                freeSpotsAdapter = new freeTimeAdapter(FreeTimeActivity.this, freeTimeGap);
+                                freeTimeList.setAdapter(freeSpotsAdapter);
+
+                                Toast.makeText(FreeTimeActivity.this, "Se borro franja de disponibilidad", Toast.LENGTH_LONG).show();
+
+                                buttonAdd.setText("Agregar");
+
+                                finish();
+                                startActivity(getIntent());
+
+                                Log.d("Delete. FreeTime", "Borro");
+
+                            }
+                            catch (ParseException e1)
+                            {
+                                e1.printStackTrace();
+                            }
+                        }
+
+                    }
+                } else {
+                    Log.d("E. FreeTime", "Error: " + e.getMessage());
+                }
             }
         });
 

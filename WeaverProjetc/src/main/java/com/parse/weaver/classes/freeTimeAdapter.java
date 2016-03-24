@@ -47,7 +47,6 @@ public class freeTimeAdapter extends ArrayAdapter<freeTimeItem>
 
         /*ALERTA: Modificar cuando se ponga DatePicker*/
 
-        holder.deleteIcon = (ImageView) freeItemList.findViewById(R.id.deleteIcon);
         holder.fromValue = (TextView) freeItemList.findViewById(R.id.fromValue);
         holder.toValue = (TextView) freeItemList.findViewById(R.id.toValue);
         holder.daysValue = (TextView) freeItemList.findViewById(R.id.daysValue);
@@ -59,66 +58,15 @@ public class freeTimeAdapter extends ArrayAdapter<freeTimeItem>
         holder.toValue.setText(get12HourNotation(freeTimeStored.getTo()));
         holder.daysValue.setText(freeTimeStored.getDays());
 
-        final int fromToDelete = freeTimeStored.getFrom();
-        final int toToDelete = freeTimeStored.getTo();
-        final String daysToDelete = freeTimeStored.getDays();
-
-        holder.deleteIcon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                ParseQuery query = new ParseQuery("FreeTime");
-
-                query.whereEqualTo("username", ParseUser.getCurrentUser());
-                query.findInBackground(new FindCallback<ParseObject>() {
-
-                    public void done(List<ParseObject> objects, ParseException e) {
-
-                        int index = 0;
-
-                        if (e == null) {
-
-                            for (ParseObject freeTimeObject : objects) {
-
-                                Log.d("Delete. FreeTime", "From:"+freeTimeObject.getInt("from"));
-                                Log.d("Delete. FreeTime", "To:"+freeTimeObject.getInt("to"));
-                                Log.d("Delete. FreeTime", "Days:"+freeTimeObject.getString("days"));
-
-                                if(freeTimeObject.getInt("from") == fromToDelete
-                                        && freeTimeObject.getInt("to") == toToDelete
-                                        && freeTimeObject.getString("days").equals(daysToDelete))
-                                {
-
-                                    Log.d("Delete. FreeTime", "Borro");
-                                    try {
-                                        freeTimeObject.delete();
-                                    } catch (ParseException e1) {
-                                        e1.printStackTrace();
-                                    }
-                                }
-
-                            }
-                        } else {
-                            Log.d("E. FreeTime", "Error: " + e.getMessage());
-                        }
-                    }
-                });
-
-            }
-        });
-
-
-
         return freeItemList;
     }
 
     public class Holder
     {
-        ImageView deleteIcon;
-        TextView fromMinValue;
         TextView fromValue;
-        TextView toMinValue;
+        TextView fromMinValue;
         TextView toValue;
+        TextView toMinValue;
         TextView daysValue;
         TextView whereValue;
     }
