@@ -8,8 +8,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.parse.weaver"
-    android:versionCode="11"
-    android:versionName="1.1">
+    android:versionCode="12"
+    android:versionName="1.1.1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -75,6 +75,7 @@
         <activity
             android:name=".PasswordForgottenActivity"
             android:label="@string/title_activity_password_forgotten"
+            android:windowSoftInputMode="adjustPan"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".FreeTimeActivity"
@@ -84,6 +85,10 @@
         <activity
             android:name=".TermsActivity"
             android:label="@string/title_activity_terms"
+            android:windowSoftInputMode="adjustPan" ></activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <service android:name="com.parse.PushService" />
@@ -109,10 +114,6 @@
             </intent-filter>
         </receiver>
 
-        <activity
-            android:name=".InfoActivity"
-            android:label="@string/title_activity_info"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

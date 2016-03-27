@@ -195,7 +195,7 @@ public class FreeTimeActivity extends AppCompatActivity {
     {
         final int fromTime = fromSpinner.getSelectedItemPosition();
         final int toTime = toSpinner.getSelectedItemPosition();
-        final String where = whereText.getText().toString();
+        final String where = whereText.getText().toString().trim();
         String days = "";
 
         if(cbMonday.isChecked()) days += "L,";
@@ -229,13 +229,15 @@ public class FreeTimeActivity extends AppCompatActivity {
             validationErrorMessage.append(getString(R.string.error_blank_to_spinner));
         }
 
-        /*
-        if (where.length() == 0)
+        if (toTime <= fromTime)
         {
+            if (validationError)
+            {
+                validationErrorMessage.append(getString(R.string.error_join));
+            }
             validationError = true;
-            validationErrorMessage.append(getString(R.string.error_blank_where));
+            validationErrorMessage.append(getString(R.string.error_concordance));
         }
-        */
 
         if (days.length() == 0)
         {
@@ -245,6 +247,16 @@ public class FreeTimeActivity extends AppCompatActivity {
             }
             validationError = true;
             validationErrorMessage.append(getString(R.string.error_blank_days));
+        }
+
+        if (where.equals(""))
+        {
+            if (validationError)
+            {
+                validationErrorMessage.append(getString(R.string.error_join));
+            }
+            validationError = true;
+            validationErrorMessage.append(getString(R.string.error_blank_where));
         }
 
         validationErrorMessage.append(getString(R.string.error_end));

@@ -30,24 +30,24 @@ public class MainActivity extends AppCompatActivity {
         Button needTakeover = (Button) findViewById(R.id.needTakeover);
         final Button canTakeover = (Button) findViewById(R.id.canTakeover);
 
-        FloatingActionButton info = (FloatingActionButton) findViewById(R.id.info);
+        Button info = (Button) findViewById(R.id.info);
 
         //TextView state = (TextView) findViewById(R.id.textViewState);
 
-    /*
-     * Commented temporally
-     *
-    if(ParseUser.getCurrentUser().get("available") == "true")
-    {
-        state.setTextColor(Color.rgb(51, 180, 102));
-        state.setText(getString(R.string.label_available));
-    }
-    else
-    {
-        state.setTextColor(Color.RED);
-        state.setText(getString(R.string.label_not_available));
-    }
-    */
+        /*
+         * Commented temporally
+         *
+        if(ParseUser.getCurrentUser().get("available") == "true")
+        {
+            state.setTextColor(Color.rgb(51, 180, 102));
+            state.setText(getString(R.string.label_available));
+        }
+        else
+        {
+            state.setTextColor(Color.RED);
+            state.setText(getString(R.string.label_not_available));
+        }
+        */
 
         needTakeover.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

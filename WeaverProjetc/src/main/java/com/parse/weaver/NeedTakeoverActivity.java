@@ -26,8 +26,7 @@ import com.utilities.GMailSenderAsync;
 import java.text.DateFormat;
 import java.util.TimeZone;
 
-public class NeedTakeoverActivity extends AppCompatActivity
-{
+public class NeedTakeoverActivity extends AppCompatActivity {
 
     EditText takeoverOrigin;
     EditText takeoverGoal;
@@ -35,9 +34,9 @@ public class NeedTakeoverActivity extends AppCompatActivity
     EditText takeoverDetail;
 
     DateFormat df = DateFormat.getTimeInstance();
+
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_need_takeover);
 
@@ -52,10 +51,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         final Button actionButton = (Button) findViewById(R.id.askTakeover);
-        actionButton.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        actionButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 putTakeoverRequest();
             }
 
@@ -63,10 +60,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         ImageView imageOrigin = (ImageView) findViewById(R.id.imageOrigin);
-        imageOrigin.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        imageOrigin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
                 takeoverOrigin.requestFocus();
@@ -76,10 +71,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         ImageView imageGoal = (ImageView) findViewById(R.id.imageGoal);
-        imageGoal.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        imageGoal.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
                 takeoverGoal.requestFocus();
@@ -89,10 +82,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         ImageView imageTime = (ImageView) findViewById(R.id.imageTime);
-        imageTime.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        imageTime.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
                 takeoverTime.requestFocus();
@@ -102,10 +93,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         ImageView imageDetail = (ImageView) findViewById(R.id.imageVan);
-        imageDetail.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        imageDetail.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
                 takeoverDetail.requestFocus();
@@ -115,10 +104,8 @@ public class NeedTakeoverActivity extends AppCompatActivity
 
         // Set up the submit button click handler
         ImageView imageTakeover = (ImageView) findViewById(R.id.imageTakeover);
-        imageTakeover.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View view)
-            {
+        imageTakeover.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
                 putTakeoverRequest();
             }
         });
@@ -126,22 +113,19 @@ public class NeedTakeoverActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
+    public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_need_takeover, menu);
         return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
+    public boolean onOptionsItemSelected(MenuItem item) {
         this.finish();
         return true;
     }
 
-    private void putTakeoverRequest()
-    {
+    private void putTakeoverRequest() {
         final String origin = takeoverOrigin.getText().toString();
         final String goal = takeoverGoal.getText().toString();
         final String time = takeoverTime.getText().toString();
@@ -151,14 +135,12 @@ public class NeedTakeoverActivity extends AppCompatActivity
         boolean validationError = false;
         StringBuilder validationErrorMessage = new StringBuilder(getString(R.string.error_intro));
 
-        if (origin.length() == 0)
-        {
+        if (origin.length() == 0) {
             validationError = true;
             validationErrorMessage.append(getString(R.string.error_blank_origin));
         }
 
-        if (goal.length() == 0)
-        {
+        if (goal.length() == 0) {
             validationError = true;
             validationErrorMessage.append(getString(R.string.error_blank_goal));
         }
@@ -183,8 +165,7 @@ public class NeedTakeoverActivity extends AppCompatActivity
         validationErrorMessage.append(getString(R.string.error_end));
 
         // If there is a validation error, display the error
-        if (validationError)
-        {
+        if (validationError) {
             Toast.makeText(NeedTakeoverActivity.this, validationErrorMessage.toString(), Toast.LENGTH_LONG)
                     .show();
             return;
@@ -194,7 +175,6 @@ public class NeedTakeoverActivity extends AppCompatActivity
         final ProgressDialog dialog = new ProgressDialog(NeedTakeoverActivity.this);
         dialog.setMessage(getString(R.string.progress_requesting));
         dialog.show();
-
 
 
         //Set marker here
@@ -227,11 +207,11 @@ public class NeedTakeoverActivity extends AppCompatActivity
                                 String userName = ParseUser.getCurrentUser().get("fullname").toString();
 
                                 String messageBody = "";
-                                messageBody =   "Nueva solicitud para usuario: " + ParseUser.getCurrentUser().get("fullname").toString() +"\n"+
-                                                "Hora de solicitud: " + df.getCalendar().getTime().toString() +"\n"+
-                                                "Celular: " + ParseUser.getCurrentUser().get("cellphone").toString() +"\n"+
-                                                "Tiempo estimado: " + takeoverTime.getText() +"\n"+
-                                                "Indicación :" + takeoverDetail.getText();
+                                messageBody = "Nueva solicitud para usuario: " + ParseUser.getCurrentUser().get("fullname").toString() + "\n" +
+                                        "Hora de solicitud: " + df.getCalendar().getTime().toString() + "\n" +
+                                        "Celular: " + ParseUser.getCurrentUser().get("cellphone").toString() + "\n" +
+                                        "Tiempo estimado: " + takeoverTime.getText() + "\n" +
+                                        "Indicación :" + takeoverDetail.getText();
 
                                 GMailSenderAsync asyncMailSenderNicolas = new GMailSenderAsync();
                                 GMailSenderAsync asyncMailSenderWilmar = new GMailSenderAsync();

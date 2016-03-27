@@ -9,8 +9,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.parse.weaver"
-    android:versionCode="11"
-    android:versionName="1.1" >
+    android:versionCode="12"
+    android:versionName="1.1.1" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -80,7 +80,8 @@
         <activity
             android:name="com.parse.weaver.PasswordForgottenActivity"
             android:label="@string/title_activity_password_forgotten"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.parse.weaver.FreeTimeActivity"
             android:label="@string/title_activity_free_time"
@@ -89,6 +90,10 @@
         <activity
             android:name="com.parse.weaver.TermsActivity"
             android:label="@string/title_activity_terms"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.parse.weaver.InfoActivity"
+            android:label="@string/title_activity_info"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <service android:name="com.parse.PushService" />
@@ -113,11 +118,6 @@
                 <category android:name="com.parse.weaver" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name="com.parse.weaver.InfoActivity"
-            android:label="@string/title_activity_info"
-            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

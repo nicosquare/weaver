@@ -472,6 +472,7 @@
     <eat-comment/>
     <string name="error_blank_to_spinner">seleccione un horario final</string>
     <string name="error_blank_where">ingrese un lugar</string>
+    <string name="error_concordance">la hora final no puede ser menor a la inicial</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="error_email_cellphone_document">ingrese un correo, documento o celular</string>
@@ -507,6 +508,7 @@
     <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
     <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
     <string name="label_set_available">Ajusta tus horarios libres</string>
+    <string name="label_view_info">Informacion de interes</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_terms.xml -->
     <eat-comment/>
     <string name="large_text">
@@ -715,7 +717,7 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
     <eat-comment/>
     <string name="title_activity_where">Donde :</string>
-    <string name="title_activity_where_hint">¿Por qué zona?</string>
+    <string name="title_activity_where_hint">¿Por cuál zona?</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>
@@ -728,7 +730,7 @@
     <string name="veh_model">Modelo *</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_welcome.xml -->
     <eat-comment/>
-    <string name="version">v.1.1</string>
+    <string name="version">v.1.1.1</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

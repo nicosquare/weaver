@@ -13,7 +13,7 @@
         android:layout_height="40dp"
         android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/weaver_nombre"
+        android:src="@drawable/ra_nombre"
         android:paddingLeft="180dp"
         android:paddingRight="10dp"/>
 
@@ -136,7 +136,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/logout_full"
-        android:background="@color/error_color"
+        android:background="@color/accent_material_dark"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
