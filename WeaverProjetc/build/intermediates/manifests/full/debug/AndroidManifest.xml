@@ -90,7 +90,7 @@
         <activity
             android:name="com.parse.weaver.TermsActivity"
             android:label="@string/title_activity_terms"
-            android:windowSoftInputMode="adjustPan" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.parse.weaver.InfoActivity"
             android:label="@string/title_activity_info"

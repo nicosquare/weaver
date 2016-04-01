@@ -391,7 +391,7 @@
     <string name="alert_pass_recovery">Nos comunicareos pronto para restituir tu contraseña</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Weaver</string>
+    <string name="app_name">Relevos App</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -507,7 +507,7 @@
     <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
     <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
     <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
-    <string name="label_set_available">Ajusta tus horarios libres</string>
+    <string name="label_set_available">Ajusta tus horarios disponibles</string>
     <string name="label_view_info">Informacion de interes</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_terms.xml -->
     <eat-comment/>
@@ -684,7 +684,7 @@
     <string name="text_prices">Tabla de precios</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="title_activity_free_time">Horarios libres</string>
+    <string name="title_activity_free_time">Horarios disponibles</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
     <eat-comment/>
     <string name="title_activity_freetime">¿A qué horas estas disponible?</string>
@@ -717,7 +717,7 @@
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_freetime.xml -->
     <eat-comment/>
     <string name="title_activity_where">Donde :</string>
-    <string name="title_activity_where_hint">¿Por cuál zona?</string>
+    <string name="title_activity_where_hint">Barrio o sector</string>
     <!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/values/strings_activity_takeover.xml -->
     <eat-comment/>
     <string name="title_main_activity">¿Necesitas un relevo o estas disponible?</string>

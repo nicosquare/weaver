@@ -22,6 +22,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.weaver.R;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,6 +52,7 @@ public class freeTimeAdapter extends ArrayAdapter<freeTimeItem>
         holder.fromValue = (TextView) freeItemList.findViewById(R.id.fromValue);
         holder.toValue = (TextView) freeItemList.findViewById(R.id.toValue);
         holder.daysValue = (TextView) freeItemList.findViewById(R.id.daysValue);
+        holder.whereValue = (TextView) freeItemList.findViewById(R.id.whereValue);
 
         if(freeTimeStored == null) Log.d("freeTimeStored","Paila");
         else Log.d("freeTimeStored","No Paila");
@@ -57,6 +60,7 @@ public class freeTimeAdapter extends ArrayAdapter<freeTimeItem>
         holder.fromValue.setText(get12HourNotation(freeTimeStored.getFrom()));
         holder.toValue.setText(get12HourNotation(freeTimeStored.getTo()));
         holder.daysValue.setText(freeTimeStored.getDays());
+        holder.whereValue.setText(freeTimeStored.getWhere());
 
         return freeItemList;
     }
@@ -123,7 +127,7 @@ public class freeTimeAdapter extends ArrayAdapter<freeTimeItem>
                 break;
             case 23: transformedHour = "11:00 PM";
                 break;
-            case 24: transformedHour = "11:00 PM";
+            case 24: transformedHour = "12:00 PM";
                 break;
 
         }

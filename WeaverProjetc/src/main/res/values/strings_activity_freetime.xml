@@ -9,7 +9,7 @@
     <string name="prompt_activity_to">Selecciona la hora final:</string>
     <string name="stored_freetime">Franjas libres ingresadas</string>
     <string name="title_activity_where">Donde :</string>
-    <string name="title_activity_where_hint">¿Por cuál zona?</string>
+    <string name="title_activity_where_hint">Barrio o sector</string>
     <!-- Button labels -->
     <string name="button_add_label">Guardar</string>
     <string name="checkbox_monday_text">L</string>

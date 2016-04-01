@@ -173,11 +173,11 @@ ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifes
 	android:name
 		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:81:13-45
 activity#com.parse.weaver.TermsActivity
-ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:85:9-88:65
-	android:windowSoftInputMode
-		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:88:13-52
+ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:85:9-88:68
 	android:label
 		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:87:13-57
+	android:theme
+		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:88:13-56
 	android:name
 		ADDED from /home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/AndroidManifest.xml:86:13-42
 activity#com.parse.weaver.InfoActivity

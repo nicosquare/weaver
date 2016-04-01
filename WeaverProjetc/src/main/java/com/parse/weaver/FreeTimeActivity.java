@@ -14,6 +14,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.parse.DeleteCallback;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
@@ -173,24 +174,6 @@ public class FreeTimeActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onPostResume() {
-        super.onPostResume();
-        freeSpotsAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        freeSpotsAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        freeSpotsAdapter.notifyDataSetChanged();
-    }
-
     private void putFreeTime()
     {
         final int fromTime = fromSpinner.getSelectedItemPosition();
@@ -312,9 +295,11 @@ public class FreeTimeActivity extends AppCompatActivity {
     private void removeFreetimeGap(final int position)
     {
 
+        Log.d("Delete. FreeTime", "Entro");
+
         final ArrayList<freeTimeItem> freeTimeGap = freeTimePreferences.getFreeTimeList(getApplicationContext());
 
-        final freeTimeItem selectedItem = freeTimeGap.get(0);
+        final freeTimeItem selectedItem = freeTimeGap.get(position);
 
         ParseQuery query = new ParseQuery("FreeTime");
 
@@ -325,7 +310,17 @@ public class FreeTimeActivity extends AppCompatActivity {
 
                 int index = 0;
 
+                Log.d("Delete. FreeTime", "Done");
+
+                if(objects == null) Log.d("Delete. FreeTime", "Objects null");
+
                 if (e == null) {
+
+                    Log.d("Delete. FreeTime", "E null");
+
+                    Log.d("Delete. FreeTime", "From:" + String.valueOf(selectedItem.getFrom()));
+                    Log.d("Delete. FreeTime", "To:" + String.valueOf(selectedItem.getTo()));
+                    Log.d("Delete. FreeTime", "Where:" + String.valueOf(selectedItem.getWhere()));
 
                     for (ParseObject freeTimeObject : objects) {
 
@@ -334,30 +329,36 @@ public class FreeTimeActivity extends AppCompatActivity {
                                 && freeTimeObject.getString("days").equals(selectedItem.getDays()))
                         {
 
-                            try
-                            {
+                            freeTimeObject.deleteInBackground(new DeleteCallback() {
+                                @Override
+                                public void done(ParseException e) {
 
-                                freeTimeObject.delete();
+                                    if (e == null) {
 
-                                freeTimeGap.remove(position);
-                                freeTimePreferences.saveFreeTime(getApplicationContext(), freeTimeGap);
-                                freeSpotsAdapter = new freeTimeAdapter(FreeTimeActivity.this, freeTimeGap);
-                                freeTimeList.setAdapter(freeSpotsAdapter);
+                                        // Delete selectedItem from Dataset
+                                        freeTimeGap.remove(selectedItem);
 
-                                Toast.makeText(FreeTimeActivity.this, "Se borro franja de disponibilidad", Toast.LENGTH_LONG).show();
+                                        // Update SharedPreferences
+                                        freeTimePreferences.saveFreeTime(getApplicationContext(), freeTimeGap);
+                                        freeSpotsAdapter = new freeTimeAdapter(FreeTimeActivity.this, freeTimeGap);
+                                        freeTimeList.setAdapter(freeSpotsAdapter);
 
-                                buttonAdd.setText("Agregar");
+                                        Toast.makeText(FreeTimeActivity.this, "Se borro franja de disponibilidad", Toast.LENGTH_LONG).show();
 
-                                finish();
-                                startActivity(getIntent());
+                                        buttonAdd.setText("Agregar");
 
-                                Log.d("Delete. FreeTime", "Borro");
+                                        finish();
+                                        startActivity(getIntent());
 
-                            }
-                            catch (ParseException e1)
-                            {
-                                e1.printStackTrace();
-                            }
+                                        Log.d("Delete. FreeTime", "Borro");
+                                    } else {
+                                        Log.d("Delete. FreeTime", " No Borro");
+                                        e.printStackTrace();
+                                    }
+
+                                }
+                            });
+
                         }
 
                     }

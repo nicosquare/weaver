@@ -11,7 +11,7 @@
     <!-- App info - Parse -->
     <string name="parse_app_id">7ropjlhhnO4J9PgSpYjCGWvpr4jgjQsinptycJdX</string>
     <string name="parse_client_key">KUYF34tj0Mj25ptjbGPeEDIcyUH2r0ewkckimqJE</string>
-    <string name="app_name">Weaver</string>
+    <string name="app_name">Relevos App</string>
     <!-- General labels -->
     <string name="action_settings">Configuraciones</string>
     <string name="action_return">Regresar</string>
@@ -32,7 +32,7 @@
     <string name="title_activity_password_forgotten">PasswordForgottenActivity</string>
     <!-- SDK's Strings -->
     <string name="facebook_app_id">1676274385994802</string>
-    <string name="title_activity_free_time">Horarios libres</string>
+    <string name="title_activity_free_time">Horarios disponibles</string>
 
     <!-- Strings related to Settings -->
 

@@ -85,7 +85,7 @@
         <activity
             android:name=".TermsActivity"
             android:label="@string/title_activity_terms"
-            android:windowSoftInputMode="adjustPan" ></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".InfoActivity"
             android:label="@string/title_activity_info"

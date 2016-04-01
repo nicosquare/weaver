@@ -99,7 +99,7 @@ public class freeTimeItem implements Serializable
 
         freeTimeItem other = (freeTimeItem) obj;
 
-        if (from != other.from)
+        if (from != other.from && to != other.to && where != other.where)
             return false;
 
         return true;

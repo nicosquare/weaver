@@ -9,7 +9,7 @@
     <!-- Button labels -->
     <string name="label_can_takeover">Cambiar a: Estoy disponible</string>
     <string name="label_cant_takeover">Cambiar a: No estoy disponible</string>
-    <string name="label_set_available">Ajusta tus horarios libres</string>
+    <string name="label_set_available">Ajusta tus horarios disponibles</string>
     <string name="label_view_info">Informacion de interes</string>
     <!-- Services labels -->
     <string name="label_ask_takeover">Pedir relevo</string>

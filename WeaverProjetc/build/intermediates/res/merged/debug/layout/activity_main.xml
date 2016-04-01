@@ -23,7 +23,7 @@
         android:id="@+id/imageView"
         android:layout_alignBottom="@+id/textview_3"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/weaver_nombre"
+        android:src="@drawable/ra_nombre_w"
         android:layout_marginBottom="29dp" />
 
     <TextView
@@ -46,7 +46,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:background="@color/error_color"/>
+        android:background="#C60013"/>
 
     <Button
         android:layout_width="match_parent"

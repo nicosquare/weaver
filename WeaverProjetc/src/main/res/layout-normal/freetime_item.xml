@@ -7,10 +7,11 @@
         android:id="@+id/deleteIcon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
         android:padding="10dp"
         android:src="@drawable/com_facebook_tooltip_black_xout"
-        android:layout_alignBottom="@+id/daysText" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/fromText"
@@ -21,7 +22,7 @@
         android:text="  Desde:   "
         android:textStyle="bold"
         android:textSize="16sp"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/deleteIcon"
         android:layout_toRightOf="@+id/deleteIcon"
         android:layout_toEndOf="@+id/deleteIcon" />
 
@@ -32,9 +33,7 @@
         android:ellipsize="marquee"
         android:singleLine="true"
         android:textSize="16sp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/fromText"
         android:layout_toRightOf="@+id/fromText"
         android:layout_toEndOf="@+id/fromText" />
 
@@ -49,7 +48,8 @@
         android:textSize="16sp"
         android:layout_below="@+id/fromText"
         android:layout_toRightOf="@+id/deleteIcon"
-        android:layout_toEndOf="@+id/deleteIcon" />
+        android:layout_alignRight="@+id/fromText"
+        android:layout_alignEnd="@+id/fromText" />
 
     <TextView
         android:id="@+id/toValue"
@@ -58,9 +58,9 @@
         android:ellipsize="marquee"
         android:singleLine="true"
         android:textSize="16sp"
-        android:layout_above="@+id/daysValue"
-        android:layout_alignLeft="@+id/daysValue"
-        android:layout_alignStart="@+id/daysValue" />
+        android:layout_above="@+id/daysText"
+        android:layout_toRightOf="@+id/toText"
+        android:layout_toEndOf="@+id/toText" />
 
     <TextView
         android:id="@+id/daysText"
@@ -73,7 +73,8 @@
         android:textSize="16sp"
         android:layout_below="@+id/toText"
         android:layout_toRightOf="@+id/deleteIcon"
-        android:layout_toEndOf="@+id/deleteIcon" />
+        android:layout_alignRight="@+id/toText"
+        android:layout_alignEnd="@+id/toText" />
 
     <TextView
         android:id="@+id/daysValue"
@@ -82,26 +83,39 @@
         android:ellipsize="marquee"
         android:singleLine="true"
         android:textSize="16sp"
-        android:layout_alignBottom="@+id/deleteIcon"
-        android:layout_alignLeft="@+id/fromValue"
-        android:layout_alignStart="@+id/fromValue" />
+        android:layout_alignBaseline="@+id/daysText"
+        android:layout_alignBottom="@+id/daysText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/daysText"
+        android:layout_toEndOf="@+id/daysText" />
 
     <TextView
-        android:id="@+id/hiddenFrom"
+        android:id="@+id/whereText"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="  Lugar:   "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/daysText"
+        android:layout_toRightOf="@+id/deleteIcon"
+        android:layout_alignRight="@+id/daysText"
+        android:layout_alignEnd="@+id/daysText" />
 
     <TextView
-        android:id="@+id/hiddenTo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:id="@+id/whereValue"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/daysText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/whereText"
+        android:layout_toEndOf="@+id/whereText" />
 
-    <TextView
-        android:id="@+id/hiddenDays"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"/>
 
 </RelativeLayout>

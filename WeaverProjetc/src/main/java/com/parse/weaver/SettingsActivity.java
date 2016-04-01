@@ -217,7 +217,7 @@ public class SettingsActivity extends AppCompatActivity
 
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(SettingsActivity.this);
-                builder.setMessage("¿Realmente quieres cerrar sesión en Weaver?")
+                builder.setMessage("¿Realmente quieres cerrar sesión en Relevos App?")
                         .setPositiveButton("Si", dialogClickListener)
                         .setNegativeButton("No", dialogClickListener).show();
             }
