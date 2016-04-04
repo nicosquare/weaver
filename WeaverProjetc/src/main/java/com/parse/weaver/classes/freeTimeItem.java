@@ -86,23 +86,8 @@ public class freeTimeItem implements Serializable
     }
 
     @Override
-    public boolean equals(Object obj)
-    {
-        if (this == obj)
-            return true;
-
-        if (obj == null)
-            return false;
-
-        if (getClass() != obj.getClass())
-            return false;
-
-        freeTimeItem other = (freeTimeItem) obj;
-
-        if (from != other.from && to != other.to && where != other.where)
-            return false;
-
-        return true;
+    public boolean equals(Object o) {
+        return super.equals(o);
     }
 
     @Override

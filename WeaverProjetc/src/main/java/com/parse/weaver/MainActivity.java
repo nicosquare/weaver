@@ -8,7 +8,12 @@
  */
 package com.parse.weaver;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -16,19 +21,28 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
+import com.parse.ParseUser;
+import com.parse.weaver.classes.SharedPreferenceFreeTime;
 
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Layout buttons
         Button needTakeover = (Button) findViewById(R.id.needTakeover);
         final Button canTakeover = (Button) findViewById(R.id.canTakeover);
+        // Layout logo images
+        ImageView waLogo = (ImageView) findViewById(R.id.imageWA);
+        ImageView phoneLogo = (ImageView) findViewById(R.id.imagePhone);
 
         Button info = (Button) findViewById(R.id.info);
 
@@ -69,6 +83,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        waLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Set up the log out button click handler
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setMessage("¿Quieres comunicarte vía Whatsapp?")
+                        .setPositiveButton("Si", dialogClickListenerWA)
+                        .setNegativeButton("No", dialogClickListenerWA).show();
+
+            }
+        });
+
+        phoneLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Set up the log out button click handler
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                builder.setMessage("¿Quieres comunicarte vía telefónica?")
+                        .setPositiveButton("Si", dialogClickListenerPhone)
+                        .setNegativeButton("No", dialogClickListenerPhone).show();
+            }
+        });
+
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 
@@ -100,4 +139,71 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    // Other methods
+
+    DialogInterface.OnClickListener dialogClickListenerWA = new DialogInterface.OnClickListener()
+    {
+        @Override
+        public void onClick(DialogInterface dialog, int which)
+        {
+            switch (which)
+            {
+                case DialogInterface.BUTTON_POSITIVE:
+
+                    // Launch Whatsapp with the chat
+
+                    PackageManager pm=getPackageManager();
+
+                    try
+                    {
+                        PackageInfo info = pm.getPackageInfo("com.whatsapp", PackageManager.GET_META_DATA);
+
+                        Uri mUri = Uri.parse("smsto:+3192920369");
+                        Intent mIntent = new Intent(Intent.ACTION_SENDTO, mUri);
+                        mIntent.setPackage("com.whatsapp");
+                        mIntent.putExtra("sms_body", "¡Hola Relevos App!, necesito un relevo");
+                        mIntent.putExtra("chat", true);
+                        startActivity(mIntent);
+
+                    }
+                    catch (PackageManager.NameNotFoundException e)
+                    {
+                        Toast.makeText(MainActivity.this, "WhatsApp no está instalado en tu equipo", Toast.LENGTH_SHORT)
+                                .show();
+                    }
+
+                    break;
+
+                case DialogInterface.BUTTON_NEGATIVE:
+                    // Starts an intent of the log in activity
+                    dialog.dismiss();
+                    break;
+            }
+        }
+    };
+
+    DialogInterface.OnClickListener dialogClickListenerPhone = new DialogInterface.OnClickListener()
+    {
+        @Override
+        public void onClick(DialogInterface dialog, int which)
+        {
+            switch (which)
+            {
+                case DialogInterface.BUTTON_POSITIVE:
+
+                    // Launch phone with number
+                    Intent intent = new Intent(Intent.ACTION_DIAL);
+                    intent.setData(Uri.parse("tel:3192920369"));
+                    startActivity(intent);
+                    break;
+
+                case DialogInterface.BUTTON_NEGATIVE:
+                    // Starts an intent of the log in activity
+                    dialog.dismiss();
+                    break;
+            }
+        }
+    };
+
 }

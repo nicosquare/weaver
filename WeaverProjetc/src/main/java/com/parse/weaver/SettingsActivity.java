@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.weaver.classes.SharedPreferenceFreeTime;
 
 /**
  * Activity that displays the settings screen.
@@ -247,6 +248,10 @@ public class SettingsActivity extends AppCompatActivity
             switch (which)
             {
                 case DialogInterface.BUTTON_POSITIVE:
+
+                    // Delete Stored FreeTime
+                    SharedPreferenceFreeTime freeTimePrefs = new SharedPreferenceFreeTime();
+                    freeTimePrefs.deleteFreeTimeList(SettingsActivity.this);
                     // Show the error message
                     // Call the Parse log out method
                     ParseUser.logOut();

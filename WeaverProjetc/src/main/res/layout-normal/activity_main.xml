@@ -32,7 +32,7 @@
         android:gravity="center"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="110dp"
         android:layout_alignParentTop="true"/>
 
     <Button
@@ -43,7 +43,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:background="#C60013"/>
 
     <Button
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/canTakeover"
         android:layout_below="@+id/needTakeover"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="@string/label_set_available"/>
 
     <!-- Disabled until info is filled
@@ -75,5 +75,38 @@
         android:layout_below="@+id/canTakeover"
         android:layout_marginTop="5dp"
         android:text="@string/label_view_info"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_other_ways"
+        android:gravity="left"
+        android:id="@+id/textOtherWays"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageWA"
+        android:src="@drawable/logo_wa"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imagePhone"
+        android:src="@drawable/logo_tel"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/imageWA"
+        android:layout_toRightOf="@+id/imageWA"
+        android:layout_toEndOf="@+id/imageWA" />
 
 </RelativeLayout>

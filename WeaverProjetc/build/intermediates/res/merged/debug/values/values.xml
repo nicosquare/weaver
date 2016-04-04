@@ -506,6 +506,7 @@
     <string name="label_not_available">Estado actual: No disponible</string>
     <string name="label_notification_stored">Tu estado se ha actualizado a disponible</string>
     <string name="label_notification_stored_not">Tu estado se ha actualizado a no disponible</string>
+    <string name="label_other_ways">¿Sin datos? Contactanos por otros medios:</string>
     <string name="label_petition_stored">Tu petición fue registrada, en breve nos comunicaremos contigo via telefónica</string>
     <string name="label_set_available">Ajusta tus horarios disponibles</string>
     <string name="label_view_info">Informacion de interes</string>

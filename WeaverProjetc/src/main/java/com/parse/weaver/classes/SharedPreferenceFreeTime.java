@@ -84,4 +84,19 @@ public class SharedPreferenceFreeTime
 
         return (ArrayList<freeTimeItem>) freeTimeList;
     }
+
+    public void deleteFreeTimeList(Context context)
+    {
+        SharedPreferences settings;
+        Editor editor;
+        List<freeTimeItem> freeTimeList;
+
+        settings = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        editor = settings.edit();
+
+        editor.clear();
+        editor.commit();
+    }
+
+
 }

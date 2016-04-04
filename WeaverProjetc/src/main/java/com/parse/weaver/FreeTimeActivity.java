@@ -78,6 +78,7 @@ public class FreeTimeActivity extends AppCompatActivity {
 
         if(freeTimeStored == null)
         {
+            Log.d("Cache Freetime", "No había ná");
 
             final ArrayList<freeTimeItem> freeTimeNotStored = new ArrayList<freeTimeItem>();
 
@@ -115,6 +116,7 @@ public class FreeTimeActivity extends AppCompatActivity {
         }
         else
         {
+            Log.d("Cache Freetime", "Había alguirri");
             freeSpotsAdapter = new freeTimeAdapter(this, freeTimeStored);
         }
 
@@ -134,6 +136,8 @@ public class FreeTimeActivity extends AppCompatActivity {
         freeTimeList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+
+                Log.d("Delete. FreeTime", "Position:" + String.valueOf(position));
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(FreeTimeActivity.this);
 
@@ -270,6 +274,8 @@ public class FreeTimeActivity extends AppCompatActivity {
                 {
                     ArrayList<freeTimeItem> freeTimeGap =  freeTimePreferences.getFreeTimeList(getApplicationContext());
 
+                    if (freeTimeGap == null) freeTimeGap = new ArrayList<freeTimeItem>();
+
                     freeTimeGap.add(new freeTimeItem(fromTime, 0, toTime, 0, daysAux, where));
                     freeTimePreferences.saveFreeTime(getApplicationContext(), freeTimeGap);
 
@@ -308,8 +314,6 @@ public class FreeTimeActivity extends AppCompatActivity {
 
             public void done(List<ParseObject> objects, ParseException e) {
 
-                int index = 0;
-
                 Log.d("Delete. FreeTime", "Done");
 
                 if(objects == null) Log.d("Delete. FreeTime", "Objects null");
@@ -320,14 +324,21 @@ public class FreeTimeActivity extends AppCompatActivity {
 
                     Log.d("Delete. FreeTime", "From:" + String.valueOf(selectedItem.getFrom()));
                     Log.d("Delete. FreeTime", "To:" + String.valueOf(selectedItem.getTo()));
+                    Log.d("Delete. FreeTime", "Days:" + String.valueOf(selectedItem.getDays()));
                     Log.d("Delete. FreeTime", "Where:" + String.valueOf(selectedItem.getWhere()));
 
                     for (ParseObject freeTimeObject : objects) {
 
                         if (freeTimeObject.getInt("from") == selectedItem.getFrom()
                                 && freeTimeObject.getInt("to") == selectedItem.getTo()
-                                && freeTimeObject.getString("days").equals(selectedItem.getDays()))
+                                    && freeTimeObject.getString("days").equals(selectedItem.getDays())
+                                        && freeTimeObject.getString("where").equals(selectedItem.getWhere()))
                         {
+
+                            Log.d("Delete. FreeTime", "Del From:" + freeTimeGap.get(position).getFrom()+"-"+freeTimeObject.getInt("from"));
+                            Log.d("Delete. FreeTime", "Del To:" + freeTimeGap.get(position).getTo()+"-"+freeTimeObject.getInt("to"));
+                            Log.d("Delete. FreeTime", "Del Days:" + freeTimeGap.get(position).getDays()+"-"+freeTimeObject.getString("days"));
+                            Log.d("Delete. FreeTime", "Del Where:" + freeTimeGap.get(position).getWhere()+"-"+freeTimeObject.getString("where"));
 
                             freeTimeObject.deleteInBackground(new DeleteCallback() {
                                 @Override
@@ -349,6 +360,7 @@ public class FreeTimeActivity extends AppCompatActivity {
 
                                         finish();
                                         startActivity(getIntent());
+
 
                                         Log.d("Delete. FreeTime", "Borro");
                                     } else {

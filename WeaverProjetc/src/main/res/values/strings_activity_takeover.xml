@@ -6,6 +6,7 @@
     <!-- Activity labels -->
     <string name="label_available">Estado actual: Disponible</string>
     <string name="label_not_available">Estado actual: No disponible</string>
+    <string name="label_other_ways">¿Sin datos? Contactanos por otros medios:</string>
     <!-- Button labels -->
     <string name="label_can_takeover">Cambiar a: Estoy disponible</string>
     <string name="label_cant_takeover">Cambiar a: No estoy disponible</string>
