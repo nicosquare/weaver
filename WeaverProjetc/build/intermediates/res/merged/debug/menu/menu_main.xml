@@ -8,4 +8,4 @@
         compat:showAsAction="always"
         android:title="@string/action_settings"/>
 
-</menu><!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/menu/menu_main.xml -->
+</menu>

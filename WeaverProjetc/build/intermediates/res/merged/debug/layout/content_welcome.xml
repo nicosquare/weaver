@@ -62,4 +62,4 @@
         android:src="@drawable/ra_nombre_w"
         android:layout_marginBottom="29dp" />
 
-</RelativeLayout><!-- From: file:/home/madog/Proyectos/WeaverApp/WeaverProjetc/src/main/res/layout/content_welcome.xml -->
+</RelativeLayout>
