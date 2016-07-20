@@ -123,417 +123,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3461479-85e8-41f7-b59b-2d9ba845499b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_text_cursor_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_text_cursor_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_text_cursor_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_text_cursor_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout-sw600dp/layout_snackbar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-h720dp/values-h720dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hdpi/values-hdpi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-large/values-large.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sw600dp/values-sw600dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w360dp/values-w360dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w480dp/values-w480dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w500dp/values-w500dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w600dp/values-w600dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w720dp/values-w720dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-w820dp/values-w820dp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-xlarge-land/values-xlarge-land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-xlarge/values-xlarge.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc-release.apk" afterPath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc-release.apk" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/aidl/androidTest/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc.iml" afterPath="$PROJECT_DIR$/WeaverProjetc/WeaverProjetc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/fab_in.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/fab_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/fab_out.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/fab_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/snackbar_in.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/snackbar_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/snackbar_out.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/anim/snackbar_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_search_url_text.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_search_url_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/fab_background.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/fab_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/snackbar_background.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/drawable/snackbar_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_signup.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_signup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/activity_welcome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/content_signup.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/content_signup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/content_welcome.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/content_welcome.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_snackbar.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_snackbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_snackbar_include.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_snackbar_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_tab_icon.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_tab_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_tab_text.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/layout_tab_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_media_action.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_media_action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_lines.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_lines.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_media.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_media.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/menu/menu_main.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-af/values-af.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-am/values-am.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ar/values-ar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-bg/values-bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-bn-rBD/values-bn-rBD.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ca/values-ca.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-cs/values-cs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-da/values-da.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-de/values-de.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-el/values-el.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-en-rGB/values-en-rGB.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-es-rUS/values-es-rUS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-es/values-es.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-et-rEE/values-et-rEE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-eu-rES/values-eu-rES.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fa/values-fa.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fi/values-fi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fr-rCA/values-fr-rCA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-fr/values-fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-gl-rES/values-gl-rES.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hi/values-hi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hr/values-hr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hu/values-hu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-hy-rAM/values-hy-rAM.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-in/values-in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-is-rIS/values-is-rIS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-it/values-it.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-iw/values-iw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ja/values-ja.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ka-rGE/values-ka-rGE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-kk-rKZ/values-kk-rKZ.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-km-rKH/values-km-rKH.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-kn-rIN/values-kn-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ko/values-ko.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ky-rKG/values-ky-rKG.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-land/values-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lo-rLA/values-lo-rLA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lt/values-lt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-lv/values-lv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mk-rMK/values-mk-rMK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ml-rIN/values-ml-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mn-rMN/values-mn-rMN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-mr-rIN/values-mr-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ms-rMY/values-ms-rMY.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-my-rMM/values-my-rMM.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-nb/values-nb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ne-rNP/values-ne-rNP.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-nl/values-nl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pl/values-pl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-port/values-port.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-port/values-port.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pt-rPT/values-pt-rPT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-pt/values-pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ro/values-ro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ru/values-ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-si-rLK/values-si-rLK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sk/values-sk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sl/values-sl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sr/values-sr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sv/values-sv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-sw/values-sw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ta-rIN/values-ta-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-te-rIN/values-te-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-th/values-th.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-tl/values-tl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-tr/values-tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-uk/values-uk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-ur-rPK/values-ur-rPK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-uz-rUZ/values-uz-rUZ.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v12/values-v12.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v12/values-v12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v17/values-v17.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v17/values-v17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v18/values-v18.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v18/values-v18.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-vi/values-vi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rHK/values-zh-rHK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zh-rTW/values-zh-rTW.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values-zu/values-zu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout-normal/activity_main.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout-normal/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/WeaverProjetc/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="WeaverApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -560,23 +165,7 @@
     <favorites_list name="WeaverApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WeaverProjetc/src/main/res/layout-normal/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028037382">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-              <folding>
-                <element signature="e#726#759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -773,6 +362,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -786,6 +379,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -818,6 +415,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -917,6 +518,26 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="incrementalReleaseUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="installDebug" />
@@ -968,6 +589,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -980,6 +605,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -989,6 +618,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -1332,6 +965,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="compileDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1345,6 +982,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="compileDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
@@ -1377,6 +1018,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
@@ -1496,6 +1141,26 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="incrementalDebugAndroidTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="incrementalReleaseUnitTestJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="installDebug" />
@@ -1547,6 +1212,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="mergeDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1559,6 +1228,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="mergeDebugShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1568,6 +1241,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
                 <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/WeaverProjetc" />
+                <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -1835,7 +1512,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4372918842777" />
+        <entry key="$PROJECT_DIR$" value="4375690569594" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1850,86 +1527,84 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.0.0/gradle-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.0.0/gradle-core-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.0.0/compilerCommon-2.0.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.0.0/gradle-api-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0/lint-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.0.0/builder-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.0.0/lint-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0/builder-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.0.0/baseLibrary-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0/annotations-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.0.0/annotations-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.0.0/builder-test-api-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0/common-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.0.0/sdklib-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.0.0/common-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.0.0/sdk-common-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.0.0/ddmlib-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.0.0/manifest-merger-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.0.0/builder-model-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.0.0/lint-checks-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.0.0/layoutlib-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0/repository-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.0.0/dvlib-25.0.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.0.0/repository-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.0.0/lint-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -2033,86 +1708,84 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.0.0/gradle-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.0.0/gradle-core-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.0.0/compilerCommon-2.0.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.0.0/gradle-api-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0/lint-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.0.0/builder-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.0.0/lint-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0/builder-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.0.0/baseLibrary-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0/annotations-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.0.0/annotations-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.0.0/builder-test-api-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0/common-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.0.0/sdklib-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.0.0/common-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.0.0/sdk-common-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.0.0/ddmlib-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.0.0/manifest-merger-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.0.0/builder-model-2.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.0.0/lint-checks-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.0.0/layoutlib-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0/repository-25.1.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.0.0/dvlib-25.0.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.0.0/repository-25.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.0.0/lint-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.2.1/appcompat-v7-22.2.1.aar" />
                             <option value="$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/design/22.2.1/design-22.2.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.4.0/cc174c559b5177982887bf6e1b76003aebad9516/bolts-android-1.4.0.jar" />
@@ -2323,126 +1996,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="res">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="res">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="drawable-hdpi">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WeaverApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeaverApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeaverApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2555,6 +2108,126 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverProjetc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="drawable-hdpi">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WeaverApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeaverApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeaverApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2858,7 +2531,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3558776" sideWeight="0.5123506" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3558776" sideWeight="0.4876494" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49730977" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2866,7 +2539,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426294" sideWeight="0.475" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426294" sideWeight="0.475" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
